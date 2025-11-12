@@ -1,4 +1,7 @@
-
+Profile: ZimPatient
+Parent: Patient
+Title: "Patient Profile"
+Description: "Example of a profile of Patient"
 // // How to do slicing:
 
 // 1. define what and how to slice: example: slice "component" element based on the code
@@ -42,7 +45,9 @@
 
 // Add an extension: 
 // * reuse an already existing extension (always recommended if possible)
-// * extension contains http://hl7.org/fhir/StructureDefinition/patient-disability named disability 0..1 MS 
+// * extension contains http://hl7.org/fhir/StructureDefinition/patient-disability named disability 0..1 MS
+* extension contains 
+  http://hl7.org/fhir/StructureDefinition/patient-birthPlace named placeofbirth 0..1
 
 
-// Create your own extension: see https://build.fhir.org/ig/HL7/fhir-shorthand/reference.html
+// Create your own extension: see https://build.fhir.org/ig/HL7/fhir-shorthand/reference.html\\\
