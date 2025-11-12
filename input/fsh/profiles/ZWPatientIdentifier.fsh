@@ -35,4 +35,4 @@ Severity: error
 Invariant: PassportNumberPattern
 Description: "If present, Passport Number identifier.value must match the pattern: 2 uppercase letters followed by 7 digits (example: AB0123456)."
 Expression: "identifier.where(type.text = 'Passport Number').all(value.matches('^[A-Z]{2}\\d{7}$'))"
-Severity: error
+Severity: #error
