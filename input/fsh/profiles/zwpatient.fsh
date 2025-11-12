@@ -4,6 +4,10 @@ Title: "Patient Profile"
 Description: "Example of a profile of Patient"
 // // How to do slicing:
 
+
+* maritalStatus 1..1
+* maritalStatus from ZimMaritalStatusVS
+
 // 1. define what and how to slice: example: slice "component" element based on the code
 // * element ^slicing.discriminator.type = #pattern
 // * component ^slicing.discriminator.path = "code"
