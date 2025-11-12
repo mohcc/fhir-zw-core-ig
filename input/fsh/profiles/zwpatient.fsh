@@ -1,19 +1,20 @@
-
-Profile: ZWPatient
+Profile: ZimPatient
 Parent: Patient
-Id: zw-patient
 Title: "Zimbabwe Patient"
 Description: "Patient profile for Zimbabwe with support for citizenship information."
 
 
+* extension contains 
+  $citizenship named citizenship 0..* and
+  http://hl7.org/fhir/StructureDefinition/patient-birthPlace named placeofbirth 0..1
 
-* extension contains $citizenship named citizenship 0..*
 * extension[citizenship] ^short = "Patient citizenship"
-
-
 
 * gender 1..1
 * gender from ZimGenderVS
+
+* maritalStatus 1..1
+* maritalStatus from ZimMaritalStatusVS
 
 
 * identifier 0..*
@@ -34,11 +35,7 @@ Description: "Patient profile for Zimbabwe with support for citizenship informat
 * identifier[HealthId].type.text = "Health ID"
 * identifier[PassportNumber].type.text = "Passport Number"
 
-//
-// * identifier[NationalIdentity].value = "01-234567B89"
-// * identifier[HealthId].value = "H987654321"
-// * identifier[PassportNumber].value = "AB0123456"
-// 
+
 * identifier[NationalIdentity].system = "http://mohcc.gov.zw/identifiers/nationalID"
 * identifier[HealthId].system = "http://mohcc.gov.zw/fhir/identifiers/healthID"
 * identifier[PassportNumber].system = "http://mohcc.gov.zw/fhir/identifiers/passport"
