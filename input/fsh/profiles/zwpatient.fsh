@@ -1,12 +1,21 @@
 Profile: ZimPatient
 Parent: Patient
-Title: "Patient Profile"
-Description: "Example of a profile of Patient"
-// // How to do slicing:
+Title: "Zimbabwe Patient"
+Description: "Patient profile for Zimbabwe with support for citizenship information."
 
+
+* extension contains $citizenship named citizenship 0..*
+* extension[citizenship] ^short = "Patient citizenship"
+
+* gender 1..1
+* gender from ZimGenderVS
 
 * maritalStatus 1..1
 * maritalStatus from ZimMaritalStatusVS
+
+
+
+
 
 // 1. define what and how to slice: example: slice "component" element based on the code
 // * element ^slicing.discriminator.type = #pattern
@@ -54,4 +63,4 @@ Description: "Example of a profile of Patient"
   http://hl7.org/fhir/StructureDefinition/patient-birthPlace named placeofbirth 0..1
 
 
-// Create your own extension: see https://build.fhir.org/ig/HL7/fhir-shorthand/reference.html\\\
+// Create your own extension: see https://build.fhir.org/ig/HL7/fhir-shorthand/reference.html
