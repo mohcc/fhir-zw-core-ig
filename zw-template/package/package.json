@@ -1,0 +1,12 @@
+{
+    "name": "zw.fhir.localtemplate",
+    "version": "0.0.1",
+    "type": "fhir.template",
+    "license": "CC0-1.0",
+    "description": "Local template extension for FHIR IG",
+    "author": "http://hl7belgium.org",
+      "base":  "fhir.base.template",
+    "dependencies": {
+      "fhir.base.template": "1.0.0"
+    }
+  }
