@@ -1,4 +1,21 @@
 
+Profile: ZWPatient
+Parent: Patient
+Id: zw-patient
+Title: "Zimbabwe Patient"
+Description: "Patient profile for Zimbabwe with support for citizenship information."
+
+
+
+* extension contains $citizenship named citizenship 0..*
+* extension[citizenship] ^short = "Patient citizenship"
+
+
+
+* gender 1..1
+* gender from ZimGenderVS
+
+
 // // How to do slicing:
 
 // 1. define what and how to slice: example: slice "component" element based on the code
@@ -39,13 +56,6 @@
 
 
 //////////////////////////////////////////////////////////////////
-Profile: ZimPatient
-Parent: Patient
-
-* gender 1..1
-* gender from ZimGenderVS
-
-
 
 // Add an extension: 
 // * reuse an already existing extension (always recommended if possible)
@@ -53,3 +63,4 @@ Parent: Patient
 
 
 // Create your own extension: see https://build.fhir.org/ig/HL7/fhir-shorthand/reference.html
+
