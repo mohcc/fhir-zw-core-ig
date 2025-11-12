@@ -39,6 +39,13 @@
 
 
 //////////////////////////////////////////////////////////////////
+Profile: ZimPatient
+Parent: Patient
+
+* gender 1..1
+* gender from ZimGenderVS
+
+
 
 // Add an extension: 
 // * reuse an already existing extension (always recommended if possible)
