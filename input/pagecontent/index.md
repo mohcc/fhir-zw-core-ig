@@ -1,25 +1,11 @@
 <div>
 <p> This implementation guide and set of artifacts are still undergoing development. </p>
-<p> Content is for demonstration purposes only. </p>
+<p> Content is for demonstration and practice purposes only. </p>
 </div>{:.stu-note}
 
 
 ### Summary 
-This Implementation Guide contains the core FHIR specifications for Zimbabwe.
+This Implementation Guide provides the foundational FHIR specifications that define how health information systems in Zimbabwe should **structure, exchange, and interpret health data. It outlines the national standards, profiles, extensions, and data exchange requirements based on the HL7® FHIR® framework**, customized to meet Zimbabwe’s healthcare and interoperability needs. The guide serves as the core reference for developers, implementers, and policymakers to ensure consistent and interoperable digital health solutions across the country.
 
 
-### Dependencies
 
-{% include dependency-table-short.xhtml %}
-
-### Cross Version Analysis
-
-{% include cross-version-analysis.xhtml %}
-
-### Global Profiles
-
-{% include globals-table.xhtml %}
-
-### IP Statements
-
-{% include ip-statements.xhtml %}
