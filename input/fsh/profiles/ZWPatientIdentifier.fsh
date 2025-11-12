@@ -8,10 +8,10 @@ Description: "Patient profile that defines identifier slices for National Identi
 
 // Slicing configuration for identifier: slice by identifier.type.text using a pattern discriminator
 * identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "type.text"
+* identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.ordered = false
-* identifier ^slicing.description = "Slice based on identifier.type.text to distinguish National Identity, Health ID, and Passport Number"
+* identifier ^slicing.description = "Slice based on identifier.system to distinguish National Identity, Health ID, and Passport Number"
 
 * identifier contains NationalIdentity 0..1
 * identifier contains HealthId 0..1
@@ -22,9 +22,14 @@ Description: "Patient profile that defines identifier slices for National Identi
 * identifier[HealthId].type.text = "Health ID"
 * identifier[PassportNumber].type.text = "Passport Number"
 
-* identifier[NationalIdentity].value = "01-234567B89"
-* identifier[HealthId].value = "H987654321"
-* identifier[PassportNumber].value = "AB0123456"
+//
+// * identifier[NationalIdentity].value = "01-234567B89"
+// * identifier[HealthId].value = "H987654321"
+// * identifier[PassportNumber].value = "AB0123456"
+// 
+* identifier[NationalIdentity].system = "http://mohcc.gov.zw/identifiers/nationalID"
+* identifier[HealthId].system = "http://mohcc.gov.zw/fhir/identifiers/healthID"
+* identifier[PassportNumber].system = "http://mohcc.gov.zw/fhir/identifiers/passport"
 
 
 Invariant: NationalIdentityPattern
