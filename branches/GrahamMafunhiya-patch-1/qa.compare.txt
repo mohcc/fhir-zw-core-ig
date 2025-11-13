@@ -1,0 +1,16 @@
+ZWCore : Validation Results
+=========================================
+
+err = 2, warn = 0, info = 0
+$--
+Generated $--. FHIR version $-- for zw.fhir.ig.core#$-- (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 3 / 0 / 0
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 2 / 0 / 1
+</table>
+== n/a ==
+ERROR: artifacts.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+ERROR: ImplementationGuide/zw.fhir.ig.core: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+ERROR: ImplementationGuide/zw.fhir.ig.core: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)

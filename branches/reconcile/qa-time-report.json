@@ -1,0 +1,303 @@
+{
+  "date" : "Thu, 13 Nov, 2025 08:25:58 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json",
+      "size" : 2551,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 211
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 35,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 35,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 85
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 2095
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 69
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 56
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-patient1.json",
+      "size" : 1202,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 24
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 35,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 381
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 220
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 21
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 49,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ZimPatient.json",
+      "size" : 4225,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 27
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 158
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 140
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 660
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 40,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 40,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 346
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 1340
+        },
+        {
+          "activity" : "generate2",
+          "start" : 44,
+          "length" : 1036
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 23
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 53,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ZimGender.json",
+      "size" : 670,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 25
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 35,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 44
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 736
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 43,
+          "length" : 517
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ZimMaritalStatus.json",
+      "size" : 965,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 44,
+          "length" : 97
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/fsh-link-references.md",
+      "size" : 175
+    },
+    {
+      "name" : "/fsh-generated/includes/menu.xml",
+      "size" : 1552
+    },
+    {
+      "name" : "/input/data/features.yaml",
+      "size" : 84
+    },
+    {
+      "name" : "/input/pagecontent/about.md",
+      "size" : 599,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 44,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/downloads.md",
+      "size" : 263
+    },
+    {
+      "name" : "/input/pagecontent/index.md",
+      "size" : 752
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 140
+    },
+    {
+      "name" : "/input/images",
+      "size" : 0
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 3007
+    }
+  ]
+}

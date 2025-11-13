@@ -1,0 +1,17 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json	2808	-	0	0	0	0	0	0	12	90	0	0	0	0	0	0	0	0	0	0	65	62	0	0	0	3	0	1
+fsh-generated/resources/Patient-patient1.json	1202	20	0	0	0	0	0	0	1	468	0	0	0	0	0	0	0	0	0	0	15	23	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-ZimPatient.json	4225	18	0	152	0	0	1	0	0	146	0	0	0	0	0	0	0	3	0	0	256	1279	0	0	0	21	1	1
+fsh-generated/resources/StructureDefinition-citizenship.json	2750	14	0	36	1	0	0	0	0	756	0	0	0	0	0	0	0	0	0	0	88	269	0	0	0	7	0	1
+fsh-generated/resources/ValueSet-ZimGender.json	670	12	0	0	0	0	0	0	0	54	0	0	0	0	0	0	0	0	0	0	11	518	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ZimMaritalStatus.json	965	12	0	0	0	0	0	0	1	15	0	0	0	0	0	0	0	0	0	0	10	67	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	227	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1552	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/data/features.yaml	84	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/about.md	599	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/downloads.md	263	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	752	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	3790	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

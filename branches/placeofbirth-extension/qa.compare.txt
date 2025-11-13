@@ -1,0 +1,65 @@
+ZWCore : Validation Results
+=========================================
+
+err = 9, warn = 4, info = 1
+$--
+Generated $--. FHIR version $-- for zw.fhir.ig.core#$-- (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 36 / 0 / 0
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 1 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-ZimPatient : 1 / 3 / 2
+ /work/fsh-generated/resources/ValueSet-ZimMaritalStatus : 7 / 1 / 1
+</table>
+== n/a ==
+ERROR: StructureDefinition-ZimPatient-definitions.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient-definitions.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient-examples.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient-examples.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient-mappings.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient-mappings.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient-testing.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient-testing.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.history.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.json.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.json.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.ttl.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.ttl.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.xml.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.xml.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus-testing.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus-testing.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.change.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.change.history.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.json.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.json.html#/html/body/div/div/div/a/img at Line 58, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.ttl.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.ttl.html#/html/body/div/div/div/a/img at Line 58, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.xml.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.xml.html#/html/body/div/div/div/a/img at Line 58, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+ERROR: ImplementationGuide/zw.fhir.ig.core: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+== fsh-generated/resources/StructureDefinition-ZimPatient.json ==
+ERROR: StructureDefinition/ZimPatient: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+INFORMATION: StructureDefinition/ZimPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition/ZimPatient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace' to 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.2.0'
+WARNING: StructureDefinition/ZimPatient: StructureDefinition.differential.element[2].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace' to 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.2.0'
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/core/StructureDefinition/ZimPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimMaritalStatus.json ==
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[0]: The code 'widowed' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'widowed' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[1]: The code 'divorced' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'divorced' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[2]: The code 'married' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'married' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[3]: The code 'unmarried' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'unmarried' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[4]: The code 'legallySeparated' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'legallySeparated' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[5]: The code 'commonLaw' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'commonLaw' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+WARNING: ValueSet/ZimMaritalStatus: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

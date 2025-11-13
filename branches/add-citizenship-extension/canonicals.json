@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "zw.fhir.ig.core",
+    "type" : "ImplementationGuide",
+    "url" : "http://mohcc.gov.zw/fhir/core/ImplementationGuide/zw.fhir.ig.core",
+    "version" : "0.1.0",
+    "name" : "ZWCore"
+  },
+  {
+    "id" : "citizenship",
+    "type" : "StructureDefinition",
+    "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/citizenship",
+    "version" : "0.1.0",
+    "name" : "Citizenship"
+  },
+  {
+    "id" : "zw-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-patient",
+    "version" : "0.1.0",
+    "name" : "ZWPatient"
+  }
+]

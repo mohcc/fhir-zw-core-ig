@@ -1,0 +1,61 @@
+ZWCore : Validation Results
+=========================================
+
+err = 6, warn = 11, info = 3
+$--
+Generated $--. FHIR version $-- for zw.fhir.ig.core#$-- (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 24 / 4 / 0
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-ZimPatient : 0 / 5 / 4
+ /work/fsh-generated/resources/ValueSet-ZimGender : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ZimMaritalStatus : 6 / 1 / 1
+</table>
+== n/a ==
+ERROR: StructureDefinition-ZimPatient-definitions.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient-examples.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient-mappings.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient-testing.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.json.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.ttl.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZimPatient.profile.xml.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender-testing.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.change.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.json.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.ttl.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.xml.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus-testing.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.change.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.json.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.ttl.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimMaritalStatus.xml.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+== fsh-generated/resources/StructureDefinition-ZimPatient.json ==
+INFORMATION: StructureDefinition/ZimPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition/ZimPatient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
+WARNING: StructureDefinition/ZimPatient: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace' to 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.2.0'
+WARNING: StructureDefinition/ZimPatient: StructureDefinition.differential.element[2].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
+WARNING: StructureDefinition/ZimPatient: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace' to 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.2.0'
+INFORMATION: StructureDefinition/ZimPatient: StructureDefinition.differential.element[4].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ZimPatient: StructureDefinition.snapshot.element[11].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/core/StructureDefinition/ZimPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+WARNING: ValueSet/ZimGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ZimMaritalStatus.json ==
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[0]: The code 'widowed' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'widowed' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[1]: The code 'divorced' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'divorced' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[2]: The code 'married' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'married' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[3]: The code 'unmarried' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'unmarried' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[4]: The code 'legallySeparated' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'legallySeparated' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+ERROR: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[5]: The code 'commonLaw' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-MaritalStatus (Unknown code 'commonLaw' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-MaritalStatus' version '3.0.0')
+WARNING: ValueSet/ZimMaritalStatus: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

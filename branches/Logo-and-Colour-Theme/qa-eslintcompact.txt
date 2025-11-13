@@ -1,0 +1,11 @@
+ZWCore
+=========================================
+
+Generic: line 0, col 0, Error - The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved (NOTFOUND)
+/work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json: line 1, col 967, Error - Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json: line 1, col 11596, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+
+err = 2, warn = 0, info = 0
+IG Publisher Version: 2.0.26

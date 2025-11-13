@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "zw.fhir.ig.core",
+    "type" : "ImplementationGuide",
+    "url" : "http://mohcc.gov.zw/fhir/core/ImplementationGuide/zw.fhir.ig.core",
+    "version" : "0.1.0",
+    "name" : "ZWCore"
+  },
+  {
+    "id" : "ZimPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/ZimPatient",
+    "version" : "0.1.0",
+    "name" : "ZimPatient"
+  },
+  {
+    "id" : "citizenship",
+    "type" : "StructureDefinition",
+    "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/citizenship",
+    "version" : "0.1.0",
+    "name" : "Citizenship"
+  },
+  {
+    "id" : "ZimGender",
+    "type" : "ValueSet",
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender",
+    "version" : "0.1.0",
+    "name" : "ZimGenderVS"
+  },
+  {
+    "id" : "ZimMaritalStatus",
+    "type" : "ValueSet",
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+    "version" : "0.1.0",
+    "name" : "ZimMaritalStatusVS"
+  }
+]

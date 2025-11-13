@@ -1,0 +1,96 @@
+{
+  "date" : "Wed, 12 Nov, 2025 16:13:45 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json",
+      "size" : 1283,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 25
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 47,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 80
+        },
+        {
+          "activity" : "validate",
+          "start" : 48,
+          "length" : 11632
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 60
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 51
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 65,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 68,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/menu.xml",
+      "size" : 1236,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/data/features.yaml",
+      "size" : 84
+    },
+    {
+      "name" : "/input/pagecontent/downloads.md",
+      "size" : 963
+    },
+    {
+      "name" : "/input/pagecontent/index.md",
+      "size" : 506
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 140
+    },
+    {
+      "name" : "/input/images",
+      "size" : 0
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 600
+    }
+  ]
+}

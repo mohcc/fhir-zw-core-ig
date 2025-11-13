@@ -1,0 +1,16 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json	2551	-	0	0	0	0	0	0	14	92	0	0	0	0	0	0	0	1	0	0	68	59	0	0	0	4	0	2
+fsh-generated/resources/Patient-patient1.json	1202	25	0	0	0	0	0	0	1	391	0	0	0	0	0	0	0	0	0	0	14	23	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-ZimPatient.json	4225	24	0	168	0	0	0	0	0	144	0	0	0	0	0	0	0	2	0	0	261	1074	0	0	0	22	0	4
+fsh-generated/resources/ValueSet-ZimGender.json	670	23	0	0	0	0	0	0	0	101	0	0	0	0	0	0	0	0	0	0	10	436	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ZimMaritalStatus.json	965	20	0	0	1	0	0	0	1	16	0	0	0	0	0	0	0	0	0	0	11	95	0	0	0	0	0	1
+/fsh-generated/includes/fsh-link-references.md	175	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1552	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/data/features.yaml	84	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/about.md	599	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/downloads.md	263	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	752	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	3007	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

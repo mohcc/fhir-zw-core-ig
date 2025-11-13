@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="patient1"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/core/StructureDefinition/ZimPatient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient1</b></p><a name="patient1"> </a><a name="hcpatient1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ZimPatient.html">Zimbabwe Patient</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Tinashe Muti (official) Male, DoB: 2000-03-10 ( http://mohcc.gov.zw/identifiers/nationalID#01-205102B60)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known Marital status of Patient">Marital Status:</td><td colspan="3"><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></td></tr><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3"><code>http://mohcc.gov.zw/fhir/identifiers/passport</code>/CZ82670</td></tr><tr><td style="background-color: #f3f5da" title="The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements."><a href="http://hl7.org/fhir/extensions/5.2.0/StructureDefinition-patient-birthPlace.html">Patient Birth Place</a></td><td colspan="3"></td></tr><tr><td style="background-color: #f3f5da" title="The patient's legal status as citizen of a country.">Patient Citizenship:</td><td colspan="3"><ul><li>code: <span title="Codes:">ZWE</span></li></ul></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
+    <valueAddress>
+      <district value="Mutoko"/>
+    </valueAddress>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
+    <extension url="code">
+      <valueCodeableConcept>
+        <coding>
+          <code value="ZWE"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="http://mohcc.gov.zw/identifiers/nationalID"/>
+    <value value="01-205102B60"/>
+  </identifier>
+  <identifier>
+    <system value="http://mohcc.gov.zw/fhir/identifiers/passport"/>
+    <value value="CZ82670"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Muti"/>
+    <given value="Tinashe"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="2000-03-10"/>
+  <maritalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <code value="U"/>
+    </coding>
+  </maritalStatus>
+</Patient>

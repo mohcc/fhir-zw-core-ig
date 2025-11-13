@@ -1,0 +1,23 @@
+ZWCore : Validation Results
+=========================================
+
+err = 2, warn = 4, info = 0
+IG Publisher Version: 2.0.26
+Generated Wed Nov 12 13:44:01 UTC 2025. FHIR version 4.0.1 for zw.fhir.ig.core#0.1.0 (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 6 / 4 / 0
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 2 / 0 / 1
+</table>
+== n/a ==
+ERROR: artifacts.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+ERROR: ImplementationGuide/zw.fhir.ig.core: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+ERROR: ImplementationGuide/zw.fhir.ig.core: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)

@@ -1,0 +1,18 @@
+ZWCore
+=========================================
+
+Generic: line 0, col 0, Error - The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'assets/images/myIcon.png.png' cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'assets/images/myIcon.png.png' cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'assets/images/myIcon.png.png' cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json: line 1, col 967, Error - Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json: line 1, col 11596, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+
+err = 2, warn = 4, info = 0
+IG Publisher Version: 2.0.26

@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender,0.1.0,draft,,ZimGenderVS,Gender Value Set,"Administrative Gender","StructureDefinition/ZimPatient","hl7.fhir.r4.core"
+http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus,0.1.0,draft,,ZimMaritalStatusVS,MaritalStatus Value Set,"Administrative Marital Status","StructureDefinition/ZimPatient","THO (V3)"

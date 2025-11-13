@@ -1,0 +1,32 @@
+ZWCore : Validation Results
+=========================================
+
+err = 0, warn = 5, info = 8
+IG Publisher Version: 2.0.26
+Generated Thu Nov 13 08:35:26 UTC 2025. FHIR version 4.0.1 for zw.fhir.ig.core#0.1.0 (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 0 / 1 / 0
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 0 / 0 / 1
+ /work/fsh-generated/resources/Patient-patient1 : 0 / 4 / 1
+ /work/fsh-generated/resources/StructureDefinition-ZimPatient : 0 / 0 / 6
+ /work/fsh-generated/resources/ValueSet-ZimGender : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimMaritalStatus : 0 / 0 / 4
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/patient1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+== fsh-generated/resources/Patient-patient1.json ==
+WARNING: Patient/patient1: Patient.extension[1].extension[0].value.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Patient/patient1: Patient.extension[1].extension[0].value.ofType(CodeableConcept): ValueSet 'http://hl7.org/fhir/ValueSet/country' not found
+WARNING: Patient/patient1: Patient.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/identifiers/nationalID'
+WARNING: Patient/patient1: Patient.identifier[1].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/identifiers/passport'
+== fsh-generated/resources/StructureDefinition-ZimPatient.json ==
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-citizenship to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+INFORMATION: StructureDefinition.snapshot.element[9].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-citizenship to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
+INFORMATION: StructureDefinition/ZimPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+== fsh-generated/resources/ValueSet-ZimMaritalStatus.json ==
+INFORMATION: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[3]: The display 'Single' is not valid in the Code system 'Single'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[4]: The display 'Separated' is not valid in the Code system 'Separated'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/ZimMaritalStatus: ValueSet.compose.include[0].concept[5]: The display 'Cohabitation' is not valid in the Code system 'Cohabitation'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code

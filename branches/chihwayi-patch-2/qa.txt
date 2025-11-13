@@ -1,0 +1,110 @@
+ZWCore : Validation Results
+=========================================
+
+err = 8, warn = 10, info = 3
+IG Publisher Version: 2.0.26
+Generated Wed Nov 12 17:06:57 UTC 2025. FHIR version 4.0.1 for zw.fhir.ig.core#0.1.0 (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 71 / 4 / 0
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 1 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-ZWPatientIdentifier : 1 / 1 / 4
+ /work/fsh-generated/resources/StructureDefinition-citizenship : 3 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-patient : 1 / 3 / 1
+ /work/fsh-generated/resources/ValueSet-ZimGender : 1 / 1 / 1
+</table>
+== n/a ==
+ERROR: Extension.extension.value: The reference http://hl7.org/fhir/ValueSet/country could not be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-definitions.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-definitions.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-examples.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-examples.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-mappings.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-mappings.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-testing.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier-testing.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.history.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.json.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.json.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.ttl.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.ttl.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.xml.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-ZWPatientIdentifier.profile.xml.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship-definitions.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship-definitions.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship-mappings.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship-mappings.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship-testing.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship-testing.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.history.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.json.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.json.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.ttl.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.ttl.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.xml.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-citizenship.profile.xml.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient-definitions.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient-definitions.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient-examples.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient-examples.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient-mappings.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient-mappings.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient-testing.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient-testing.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.history.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.json.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.json.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.ttl.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.ttl.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.xml.html#/html/body/div/div/div/a at Line 63, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: StructureDefinition-zw-patient.profile.xml.html#/html/body/div/div/div/a/img at Line 64, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimGender-testing.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender-testing.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimGender.change.history.html#/html/body/div/div/div/a at Line 59, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.change.history.html#/html/body/div/div/div/a/img at Line 60, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimGender.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimGender.json.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.json.html#/html/body/div/div/div/a/img at Line 58, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimGender.ttl.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.ttl.html#/html/body/div/div/div/a/img at Line 58, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: ValueSet-ZimGender.xml.html#/html/body/div/div/div/a at Line 57, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: ValueSet-ZimGender.xml.html#/html/body/div/div/div/a/img at Line 58, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a at Line 55, column 7: The link 'yourprojectwebsite.html' for "Visit MyProject" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a/img at Line 56, column 7: The image source 'assets/images/myIcon.png.png' cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+ERROR: ImplementationGuide/zw.fhir.ig.core: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+== fsh-generated/resources/StructureDefinition-ZWPatientIdentifier.json ==
+ERROR: StructureDefinition/ZWPatientIdentifier: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+INFORMATION: StructureDefinition/ZWPatientIdentifier: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/ZWPatientIdentifier: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ZWPatientIdentifier: StructureDefinition.snapshot.element[9].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/core/StructureDefinition/ZWPatientIdentifier'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-citizenship.json ==
+ERROR: StructureDefinition/citizenship: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+ERROR: StructureDefinition/citizenship: StructureDefinition.snapshot.element[8].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/ValueSet/country'
+ERROR: StructureDefinition/citizenship: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/ValueSet/country'
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/core/StructureDefinition/citizenship'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-zw-patient.json ==
+ERROR: StructureDefinition/zw-patient: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+WARNING: StructureDefinition/zw-patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
+WARNING: StructureDefinition/zw-patient: StructureDefinition.differential.element[2].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-patient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+ERROR: ValueSet/ZimGender: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'Zimbabwe' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+WARNING: ValueSet/ZimGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
