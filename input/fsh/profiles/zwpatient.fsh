@@ -20,7 +20,7 @@ Description: "Patient profile for Zimbabwe with support for citizenship informat
 * identifier 0..*
 
 // Slicing configuration for identifier: slice by identifier.type.text using a pattern discriminator
-* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.ordered = false
