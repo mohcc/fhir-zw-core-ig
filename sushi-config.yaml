@@ -11,7 +11,7 @@ fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#716 "Zimbabwe" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#716 "Zimbabwe (ZWE)" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: MOH Zimbabwe
   url: http://mohcc.org.zw
@@ -34,6 +34,11 @@ publisher:
 pages:
   index.md:
     title: Home
+  downloads.md:
+    title: Downloads
+  about.md:
+    title: About
+  
 
 
 menu:
@@ -60,15 +65,15 @@ menu:
   #   Indicators and Measures: indicators-measures.html
   #   Codings: codings.html
 #
-  # Deployment:
+  Deployment:
   #   Security and Privacy Considerations: security-privacy.html
   #   Testing: testing.html
   #   Test Data: test-data.html
   #   Reference Implementations: reference-implementations.html
   #   Trust Domains: trust_domain.html
-  #   Downloads: downloads.html
-
-  Artifacts: artifacts.html
+    Downloads: downloads.html
+    Artifacts: artifacts.html
+  About: about.html
     
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
