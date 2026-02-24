@@ -1,6 +1,6 @@
 
 Profile: ZWPatient
-Parent: Patient
+Parent: ZWPatientIdentifier
 Id: zw-patient
 Title: "Zimbabwe Patient"
 Description: "Patient profile for Zimbabwe with support for citizenship information."
@@ -11,6 +11,10 @@ Description: "Patient profile for Zimbabwe with support for citizenship informat
 * extension[citizenship] ^short = "Patient citizenship"
 
 
+
+// core demographic elements
+* birthDate 1..1
+* name 1..*
 
 * gender 1..1
 * gender from ZimGenderVS
