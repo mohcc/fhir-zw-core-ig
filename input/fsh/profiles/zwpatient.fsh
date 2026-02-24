@@ -19,6 +19,12 @@ Description: "Patient profile for Zimbabwe with support for citizenship informat
 * gender 1..1
 * gender from ZimGenderVS
 
+// address with Zimbabwe province binding
+* address 0..*
+* address.state 0..1
+* address.state from ZimProvinceVS (required)
+* address.country = #ZW  // restrict country to Zimbabwe
+
 
 // // How to do slicing:
 

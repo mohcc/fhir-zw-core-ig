@@ -14,5 +14,12 @@ Description: "A simple patient example with core demographics and identifiers."
 * identifier[1].type.text = "Health ID"
 * identifier[1].value = "H987654321"
 
+// add address
+* address[0].line[0] = "123 Main Street"
+* address[0].city = "Harare"
+* address[0].state = #ZW-HA
+* address[0].postalCode = "00263"
+* address[0].country = #ZW
+
 // add citizenship extension
 * extension[citizenship].extension[code].valueCodeableConcept = http://hl7.org/fhir/ValueSet/country#ZW "Zimbabwe"
