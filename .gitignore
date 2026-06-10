@@ -48,6 +48,12 @@ Thumbs.db
 .roo/
 .gptignore
 .github/copilot/
+.github/copilot-instructions.md
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
+.mcp.json
 
 # word #
 ########
