@@ -1,25 +1,42 @@
 Instance: zw-patient-example
-InstanceOf: ZWPatient
+InstanceOf: ZimPatient
 Title: "Example Zimbabwean Patient"
-Description: "A simple patient example with core demographics and identifiers."
+Description: "A Zimbabwean patient with core demographics, national identifiers, contact details, preferred language and citizenship."
 
-* birthDate = "1985-06-15"
-* gender = #female
+* name[0].use = #official
 * name[0].family = "Moyo"
 * name[0].given = "Tendai"
 
-// identifiers inherited from ZWPatientIdentifier
-* identifier[0].type.text = "National Identity"
-* identifier[0].value = "01-234567B89"
-* identifier[1].type.text = "Health ID"
-* identifier[1].value = "H987654321"
+* gender = #female
+* birthDate = "1985-06-15"
+* maritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#M "Married"
 
-// add address
+* telecom[0].system = #phone
+* telecom[0].value = "+263772123456"
+* telecom[0].use = #mobile
+
+* communication[0].language = urn:ietf:bcp:47#sn "Shona"
+* communication[0].preferred = true
+
+// identifiers (sliced in the ZimPatient profile)
+* identifier[NationalIdentity].value = "01-234567B89"
+* identifier[HealthId].value = "486B3072"
+
+// address with Zimbabwe province
+* address[0].use = #home
 * address[0].line[0] = "123 Main Street"
 * address[0].city = "Harare"
-* address[0].state = #ZW-HA
+* address[0].district = "Harare"
+* address[0].state = "HA"
 * address[0].postalCode = "00263"
-* address[0].country = #ZW
+* address[0].country = "ZW"
 
-// add citizenship extension
-* extension[citizenship].extension[code].valueCodeableConcept = http://hl7.org/fhir/ValueSet/country#ZW "Zimbabwe"
+// next of kin
+* contact[0].relationship = http://terminology.hl7.org/CodeSystem/v2-0131#N "Next-of-Kin"
+* contact[0].name.family = "Moyo"
+* contact[0].name.given = "Farai"
+* contact[0].telecom[0].system = #phone
+* contact[0].telecom[0].value = "+263772987654"
+
+// citizenship extension
+* extension[citizenship].extension[code].valueCodeableConcept = ZimCountryCS#ZW "Zimbabwe"

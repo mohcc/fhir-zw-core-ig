@@ -1,0 +1,9 @@
+{
+  "name": "fhir-zw-core-ig",
+  "version": "1.0.0",
+  "description": "FHIR Implementation Guide for Zimbabwe core",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "fsh-sushi": "^4.8.0"
+  }
+}
