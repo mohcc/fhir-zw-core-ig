@@ -1,5 +1,5 @@
 Instance: zw-patient-example
-InstanceOf: ZWPatient
+InstanceOf: ZimPatient
 Title: "Example Zimbabwean Patient"
 Description: "A simple patient example with core demographics and identifiers."
 
@@ -22,4 +22,6 @@ Description: "A simple patient example with core demographics and identifiers."
 * address[0].country = #ZW
 
 // add citizenship extension
-* extension[citizenship].extension[code].valueCodeableConcept = http://hl7.org/fhir/ValueSet/country#ZW "Zimbabwe"
+* extension[citizenship].extension[code].valueCodeableConcept = urn:iso:std:iso:3166#ZW "Zimbabwe"
+
+* maritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#U
