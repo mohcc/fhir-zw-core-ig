@@ -32,9 +32,22 @@ Thumbs.db
 .idea/
 .idea/*
 
-# Claude Code #
-###############
+# AI assistant tooling — local helpers only, not shared #
+#########################################################
 .claude/
+.cursor/
+.cursorrules
+.cursorindexingignore
+.aider*
+.aiderignore
+.continue/
+.codeium/
+.windsurf/
+.windsurfrules
+.clinerules
+.roo/
+.gptignore
+.github/copilot/
 
 # word #
 ########
