@@ -18,6 +18,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  # This workflow contains a single job called "build"
-  call_build: 
-    uses: WorldHealthOrganization/smart-base/.github/workflows/fhirbuild.yml@main
+  # Reuse the locally checked‑in build workflow so we can customize it
+  build:
+    uses: ./.github/workflows/ghbuild.yml
