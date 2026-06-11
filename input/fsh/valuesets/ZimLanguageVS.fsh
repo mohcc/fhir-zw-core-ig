@@ -5,7 +5,7 @@ Description: "Official languages of Zimbabwe (per the 2013 Constitution, Section
 * ^experimental = false
 * urn:ietf:bcp:47#en "English"
 * urn:ietf:bcp:47#sn "Shona"
-* urn:ietf:bcp:47#nd "Ndebele (North)"
+* urn:ietf:bcp:47#nd-ZW "North Ndebele (Zimbabwe)"
 * urn:ietf:bcp:47#ndc "Ndau"
 * urn:ietf:bcp:47#kck "Kalanga"
 * urn:ietf:bcp:47#toi "Tonga"
