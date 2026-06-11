@@ -1,7 +1,7 @@
 CodeSystem: ZimDistrictCS
 Id: ZimDistrictCS
 Title: "Zimbabwe District Code System"
-Description: "Districts (and metropolitan sub-units) of Zimbabwe, from the MOHCC district table. The concept code is the 4-character district code = 2-digit province code (01-10, per ZimProvinceCS) + 2-character zero-padded district code. The 'provinceCode' property gives the parent province's 2-digit code. NOTE: Harare city units were re-parented from the source ProvinceID=1 (Manicaland) to Harare (01); the junk 'Harare' row (ProvinceID 7) and the non-standard Masvikeni A/B rows were excluded."
+Description: "Districts (and metropolitan sub-units) of Zimbabwe, from the MOHCC district table. The concept code is the 4-character district code = 2-digit province code (01-10, per ZimProvinceCS) + 2-character zero-padded district code. The 'provinceCode' property gives the parent province's 2-digit code. NOTE: Harare city units were re-parented from the source ProvinceID=1 (Manicaland) to Harare (01); a junk 'Harare' row (ProvinceID 7) and other non-standard rows were excluded."
 * ^experimental = false
 * ^caseSensitive = true
 * ^property[0].code = #provinceCode
