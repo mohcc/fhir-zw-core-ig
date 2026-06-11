@@ -1,11 +1,7 @@
-# This workflow reuses the openHIE GitHub action for building IGs
-# Initial idea by Carl Leitner, developed by Elliot Silver, available from: https://www.argentixinfo.com/archives/156
-# Change log:
-# v0.1.0
-# 2021-06-18: publish default branches to / , other branches branches/<branch>
-# 2021-11-26: reusable workflow
+name: HL7 FHIR AutoBuild Trigger
 
-name: FHIR CI Build
+permissions:
+  contents: write
 
 # Controls when the action will run. 
 on:
@@ -18,6 +14,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Reuse the locally checked‑in build workflow so we can customize it
-  build:
-    uses: ./.github/workflows/ghbuild.yml
+  # This workflow contains a single job called "build"
+  call_build: 
+    uses: WorldHealthOrganization/smart-base/.github/workflows/fhirbuild.yml@main
