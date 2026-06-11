@@ -3,7 +3,7 @@ InstanceOf: ZimOrganization
 Title: "Example Zimbabwean Health Facility"
 Description: "Parirenyatwa Group of Hospitals, a central hospital in Harare."
 
-* identifier[FacilityCode].value = "ZW010245"
+* identifier[FacilityCode].value = "ZW010E01"
 * active = true
 * name = "Parirenyatwa Group of Hospitals"
 * type = ZimFacilityTypeCS#CENTRAL "Central Hospital"
@@ -13,6 +13,6 @@ Description: "Parirenyatwa Group of Hospitals, a central hospital in Harare."
 
 * address[0].line[0] = "Mazowe Street"
 * address[0].city = "Harare"
-* address[0].district = "Harare"
+* address[0].district = "010E"
 * address[0].state = "HA"
 * address[0].country = "ZW"

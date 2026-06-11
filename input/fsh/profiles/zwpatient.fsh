@@ -56,6 +56,7 @@ Description: "Patient profile for Zimbabwe core data: demographics, national ide
 * address.line MS
 * address.city MS
 * address.district MS
+* address.district from ZimDistrictVS (required)
 * address.state 0..1 MS
 * address.state ^short = "Province"
 * address.state ^label = "Province"

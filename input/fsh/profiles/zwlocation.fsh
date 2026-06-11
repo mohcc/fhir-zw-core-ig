@@ -20,6 +20,7 @@ Description: "Location profile for Zimbabwe: a physical place where care is deli
 * address.state ^definition = "The province within Zimbabwe (carried in the FHIR Address.state element)."
 * address.state from ZimProvinceVS (required)
 * address.district MS
+* address.district from ZimDistrictVS (required)
 * address.country 1..1
 * address.country = "ZW"
 

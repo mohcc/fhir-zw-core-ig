@@ -32,6 +32,7 @@ Description: "Organization profile for Zimbabwe, used primarily for health facil
 * address.state ^definition = "The province within Zimbabwe (carried in the FHIR Address.state element)."
 * address.state from ZimProvinceVS (required)
 * address.district MS
+* address.district from ZimDistrictVS (required)
 * address.country 1..1
 * address.country = "ZW"
 
@@ -39,6 +40,6 @@ Description: "Organization profile for Zimbabwe, used primarily for health facil
 * partOf MS
 
 Invariant: FacilityCodePattern
-Description: "If present, Facility Code must be of the form ZW + 2-digit province (01-10) + 2-digit district + 2-character facility number. The facility number is alphanumeric; provincial hospitals typically include a letter (examples: ZW010245, ZW0103OA)."
-Expression: "identifier.where(type.text = 'Facility Code').all(value.matches('^ZW(0[1-9]|10)[0-9]{2}[0-9A-Z]{2}$'))"
+Description: "If present, Facility Code must be ZW followed by the 6-character national facility code, which is composed of the 2-digit province code (01-10) + 2-digit district + 2-character facility number (i.e. province code + district = district code, e.g. 0132; + facility = facility code, e.g. 013224). The facility number is alphanumeric; hospitals typically include a letter (examples: ZW010245, ZW03090D)."
+Expression: "identifier.where(type.text = 'Facility Code').all(value.matches('^ZW(0[1-9]|10)[0-9A-Z]{4}$'))"
 Severity: #error

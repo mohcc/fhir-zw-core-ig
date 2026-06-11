@@ -26,7 +26,7 @@ Description: "A Zimbabwean patient with core demographics, national identifiers,
 * address[0].use = #home
 * address[0].line[0] = "123 Main Street"
 * address[0].city = "Harare"
-* address[0].district = "Harare"
+* address[0].district = "010A"
 * address[0].state = "HA"
 * address[0].postalCode = "00263"
 * address[0].country = "ZW"
