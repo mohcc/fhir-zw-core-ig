@@ -17,6 +17,6 @@ Description: "Next of kin for the example Zimbabwean patient."
 
 * address[0].use = #home
 * address[0].city = "Harare"
-* address[0].district = "Harare"
+* address[0].district = "010A"
 * address[0].state = "HA"
 * address[0].country = "ZW"

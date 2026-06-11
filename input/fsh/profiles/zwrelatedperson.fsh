@@ -29,6 +29,7 @@ Description: "A person related to a Zimbabwe patient (e.g. next of kin, guardian
 * address.line MS
 * address.city MS
 * address.district MS
+* address.district from ZimDistrictVS (required)
 * address.state 0..1 MS
 * address.state ^short = "Province"
 * address.state ^label = "Province"
