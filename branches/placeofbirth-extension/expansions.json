@@ -1,0 +1,57 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "fa025335-9a1e-4ba5-a496-31f4329fa4a5",
+  "meta" : {
+    "lastUpdated" : "2025-11-12T14:27:53.998+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html\">codesystem MaritalStatus v3.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|3.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+      "version" : "0.1.0",
+      "name" : "ZimMaritalStatusVS",
+      "title" : "MaritalStatus Value Set",
+      "status" : "draft",
+      "date" : "2025-11-12T14:27:53+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "716",
+          "display" : "Zimbabwe"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:9b9040e9-cef8-434c-b180-9cd2eaf14ab8",
+        "timestamp" : "2025-11-12T14:29:04+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|3.0.0"
+        }]
+      }
+    }
+  }]
+}

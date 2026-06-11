@@ -1,0 +1,142 @@
+# Zimbabwe Province Code System - Zimbabwe Core IG v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **Zimbabwe Province Code System**
+
+## CodeSystem: Zimbabwe Province Code System 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS | *Version*:0.1.0 |
+| Draft as of 2026-06-11 | *Computable Name*:ZimProvinceCS |
+
+ 
+The ten provinces of Zimbabwe. The 'facilityCode' property gives the two-digit province number (01-10) used as the province segment of a national facility code. Concept codes are also aligned with ISO 3166-2:ZW subdivisions (e.g. HA = ZW-HA). 
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* [ZimProvinceVS](ValueSet-ZimProvince.md)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ZimProvinceCS",
+  "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS",
+  "version" : "0.1.0",
+  "name" : "ZimProvinceCS",
+  "title" : "Zimbabwe Province Code System",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-11T12:30:02+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "The ten provinces of Zimbabwe. The 'facilityCode' property gives the two-digit province number (01-10) used as the province segment of a national facility code. Concept codes are also aligned with ISO 3166-2:ZW subdivisions (e.g. HA = ZW-HA).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "property" : [{
+    "code" : "facilityCode",
+    "description" : "Two-digit province number used as the province segment of a national facility code (per the MOHCC province table).",
+    "type" : "string"
+  }],
+  "concept" : [{
+    "code" : "HA",
+    "display" : "Harare",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "01"
+    }]
+  },
+  {
+    "code" : "MA",
+    "display" : "Manicaland",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "02"
+    }]
+  },
+  {
+    "code" : "MC",
+    "display" : "Mashonaland Central",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "03"
+    }]
+  },
+  {
+    "code" : "ME",
+    "display" : "Mashonaland East",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "04"
+    }]
+  },
+  {
+    "code" : "MW",
+    "display" : "Mashonaland West",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "05"
+    }]
+  },
+  {
+    "code" : "MN",
+    "display" : "Matabeleland North",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "06"
+    }]
+  },
+  {
+    "code" : "MS",
+    "display" : "Matabeleland South",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "07"
+    }]
+  },
+  {
+    "code" : "MI",
+    "display" : "Midlands",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "08"
+    }]
+  },
+  {
+    "code" : "MV",
+    "display" : "Masvingo",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "09"
+    }]
+  },
+  {
+    "code" : "BU",
+    "display" : "Bulawayo",
+    "property" : [{
+      "code" : "facilityCode",
+      "valueString" : "10"
+    }]
+  }]
+}
+
+```

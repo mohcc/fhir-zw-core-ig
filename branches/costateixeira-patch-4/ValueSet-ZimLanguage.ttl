@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ZimLanguage"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimLanguage</b></p><a name=\"ZimLanguage\"> </a><a name=\"hcZimLanguage\"> </a><ul><li>Include these codes as defined in <code>urn:ietf:bcp:47</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>en</td><td>English</td></tr><tr><td>sn</td><td>Shona</td></tr><tr><td>nd-ZW</td><td>North Ndebele (Zimbabwe)</td></tr><tr><td>ndc</td><td>Ndau</td></tr><tr><td>kck</td><td>Kalanga</td></tr><tr><td>toi</td><td>Tonga</td></tr><tr><td>nmq</td><td>Nambya</td></tr><tr><td>ny</td><td>Chewa (Nyanja)</td></tr><tr><td>tn</td><td>Tswana</td></tr><tr><td>st</td><td>Sotho (Southern)</td></tr><tr><td>ve</td><td>Venda</td></tr><tr><td>xh</td><td>Xhosa</td></tr><tr><td>ts</td><td>Tsonga (Shangani)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ZimLanguageVS"] ; # 
+  fhir:title [ fhir:v "Zimbabwe Language Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T12:30:02+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Official languages of Zimbabwe (per the 2013 Constitution, Section 6), expressed as BCP-47 codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "en" ] ;
+         fhir:display [ fhir:v "English" ]
+       ] [
+         fhir:code [ fhir:v "sn" ] ;
+         fhir:display [ fhir:v "Shona" ]
+       ] [
+         fhir:code [ fhir:v "nd-ZW" ] ;
+         fhir:display [ fhir:v "North Ndebele (Zimbabwe)" ]
+       ] [
+         fhir:code [ fhir:v "ndc" ] ;
+         fhir:display [ fhir:v "Ndau" ]
+       ] [
+         fhir:code [ fhir:v "kck" ] ;
+         fhir:display [ fhir:v "Kalanga" ]
+       ] [
+         fhir:code [ fhir:v "toi" ] ;
+         fhir:display [ fhir:v "Tonga" ]
+       ] [
+         fhir:code [ fhir:v "nmq" ] ;
+         fhir:display [ fhir:v "Nambya" ]
+       ] [
+         fhir:code [ fhir:v "ny" ] ;
+         fhir:display [ fhir:v "Chewa (Nyanja)" ]
+       ] [
+         fhir:code [ fhir:v "tn" ] ;
+         fhir:display [ fhir:v "Tswana" ]
+       ] [
+         fhir:code [ fhir:v "st" ] ;
+         fhir:display [ fhir:v "Sotho (Southern)" ]
+       ] [
+         fhir:code [ fhir:v "ve" ] ;
+         fhir:display [ fhir:v "Venda" ]
+       ] [
+         fhir:code [ fhir:v "xh" ] ;
+         fhir:display [ fhir:v "Xhosa" ]
+       ] [
+         fhir:code [ fhir:v "ts" ] ;
+         fhir:display [ fhir:v "Tsonga (Shangani)" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

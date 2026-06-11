@@ -1,0 +1,106 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ZimCountryCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ZimCountryCS</b></p><a name=\"ZimCountryCS\"> </a><a name=\"hcZimCountryCS\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ZW<a name=\"ZimCountryCS-ZW\"> </a></td><td>Zimbabwe</td></tr><tr><td style=\"white-space:nowrap\">ZA<a name=\"ZimCountryCS-ZA\"> </a></td><td>South Africa</td></tr><tr><td style=\"white-space:nowrap\">ZM<a name=\"ZimCountryCS-ZM\"> </a></td><td>Zambia</td></tr><tr><td style=\"white-space:nowrap\">MZ<a name=\"ZimCountryCS-MZ\"> </a></td><td>Mozambique</td></tr><tr><td style=\"white-space:nowrap\">BW<a name=\"ZimCountryCS-BW\"> </a></td><td>Botswana</td></tr><tr><td style=\"white-space:nowrap\">MW<a name=\"ZimCountryCS-MW\"> </a></td><td>Malawi</td></tr><tr><td style=\"white-space:nowrap\">NA<a name=\"ZimCountryCS-NA\"> </a></td><td>Namibia</td></tr><tr><td style=\"white-space:nowrap\">AO<a name=\"ZimCountryCS-AO\"> </a></td><td>Angola</td></tr><tr><td style=\"white-space:nowrap\">CD<a name=\"ZimCountryCS-CD\"> </a></td><td>Democratic Republic of the Congo</td></tr><tr><td style=\"white-space:nowrap\">TZ<a name=\"ZimCountryCS-TZ\"> </a></td><td>United Republic of Tanzania</td></tr><tr><td style=\"white-space:nowrap\">LS<a name=\"ZimCountryCS-LS\"> </a></td><td>Lesotho</td></tr><tr><td style=\"white-space:nowrap\">SZ<a name=\"ZimCountryCS-SZ\"> </a></td><td>Eswatini</td></tr><tr><td style=\"white-space:nowrap\">GB<a name=\"ZimCountryCS-GB\"> </a></td><td>United Kingdom</td></tr><tr><td style=\"white-space:nowrap\">US<a name=\"ZimCountryCS-US\"> </a></td><td>United States of America</td></tr><tr><td style=\"white-space:nowrap\">CN<a name=\"ZimCountryCS-CN\"> </a></td><td>China</td></tr><tr><td style=\"white-space:nowrap\">IN<a name=\"ZimCountryCS-IN\"> </a></td><td>India</td></tr><tr><td style=\"white-space:nowrap\">NG<a name=\"ZimCountryCS-NG\"> </a></td><td>Nigeria</td></tr><tr><td style=\"white-space:nowrap\">KE<a name=\"ZimCountryCS-KE\"> </a></td><td>Kenya</td></tr></table></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS",
+  "version" : "0.1.0",
+  "name" : "ZimCountryCS",
+  "title" : "Zimbabwe Country (Nationality) Code System",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-11T12:03:46+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Countries used for citizenship/nationality in Zimbabwe. Codes are aligned with ISO 3166-1 alpha-2. Defined locally so terminology validation does not depend on ISO 3166 server support; extend as needed.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 18,
+  "concept" : [{
+    "code" : "ZW",
+    "display" : "Zimbabwe"
+  },
+  {
+    "code" : "ZA",
+    "display" : "South Africa"
+  },
+  {
+    "code" : "ZM",
+    "display" : "Zambia"
+  },
+  {
+    "code" : "MZ",
+    "display" : "Mozambique"
+  },
+  {
+    "code" : "BW",
+    "display" : "Botswana"
+  },
+  {
+    "code" : "MW",
+    "display" : "Malawi"
+  },
+  {
+    "code" : "NA",
+    "display" : "Namibia"
+  },
+  {
+    "code" : "AO",
+    "display" : "Angola"
+  },
+  {
+    "code" : "CD",
+    "display" : "Democratic Republic of the Congo"
+  },
+  {
+    "code" : "TZ",
+    "display" : "United Republic of Tanzania"
+  },
+  {
+    "code" : "LS",
+    "display" : "Lesotho"
+  },
+  {
+    "code" : "SZ",
+    "display" : "Eswatini"
+  },
+  {
+    "code" : "GB",
+    "display" : "United Kingdom"
+  },
+  {
+    "code" : "US",
+    "display" : "United States of America"
+  },
+  {
+    "code" : "CN",
+    "display" : "China"
+  },
+  {
+    "code" : "IN",
+    "display" : "India"
+  },
+  {
+    "code" : "NG",
+    "display" : "Nigeria"
+  },
+  {
+    "code" : "KE",
+    "display" : "Kenya"
+  }]
+}

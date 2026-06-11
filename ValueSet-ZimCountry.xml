@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ZimCountry"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ZimCountry</b></p><a name="ZimCountry"> </a><a name="hcZimCountry"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ZimCountryCS.html"><code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimCountry"/>
+  <version value="0.1.0"/>
+  <name value="ZimCountryVS"/>
+  <title value="Zimbabwe Country (Nationality) Value Set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T13:59:21+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Countries used for citizenship/nationality in Zimbabwe (ISO 3166-1 alpha-2 aligned)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+    </include>
+  </compose>
+</ValueSet>

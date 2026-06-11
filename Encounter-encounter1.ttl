@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/Encounter/encounter1> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "encounter1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-encounter"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-encounter>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter encounter1</b></p><a name=\"encounter1\"> </a><a name=\"hcencounter1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-encounter.html\">Zimbabwe Encounter</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://hl7.org/fhir/R4/v3/ActCode/cs.html#v3-ActCode-AMB\">v3 Code System ActCode: AMB</a> (ambulatory)</p><p><b>subject</b>: <a href=\"Patient-zw-patient-example.html\">Tendai Moyo (official) Female, DoB: 1985-06-15 ( http://mohcc.gov.zw/identifiers/nationalID#ZimNationalIdentity#01-234567B89)</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Individual</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-practitioner1.html\">Practitioner Rudo Ncube (official)</a></td></tr></table><p><b>period</b>: 2026-05-01 09:00:00+0200 --&gt; 2026-05-01 09:30:00+0200</p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location-location1.html\">Location Parirenyatwa Outpatients Department</a></td></tr></table><p><b>serviceProvider</b>: <a href=\"Organization-organization1.html\">Organization Parirenyatwa Group of Hospitals</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "finished"] ; # 
+  fhir:class [
+     fhir:system [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+     ] ;
+     fhir:code [ fhir:v "AMB" ] ;
+     fhir:display [ fhir:v "ambulatory" ]
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/core/Patient/zw-patient-example> ;
+     fhir:reference [ fhir:v "Patient/zw-patient-example" ]
+  ] ; # 
+  fhir:participant ( [
+     fhir:individual [
+       fhir:l <http://mohcc.gov.zw/fhir/core/Practitioner/practitioner1> ;
+       fhir:reference [ fhir:v "Practitioner/practitioner1" ]
+     ]
+  ] ) ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2026-05-01T09:00:00+02:00"^^xsd:dateTime ] ;
+     fhir:end [ fhir:v "2026-05-01T09:30:00+02:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:location ( [
+     fhir:location [
+       fhir:l <http://mohcc.gov.zw/fhir/core/Location/location1> ;
+       fhir:reference [ fhir:v "Location/location1" ]
+     ]
+  ] ) ; # 
+  fhir:serviceProvider [
+     fhir:l <http://mohcc.gov.zw/fhir/core/Organization/organization1> ;
+     fhir:reference [ fhir:v "Organization/organization1" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

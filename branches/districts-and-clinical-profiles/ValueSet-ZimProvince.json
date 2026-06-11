@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ZimProvince",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimProvince</b></p><a name=\"ZimProvince\"> </a><a name=\"hcZimProvince\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ZimProvinceCS.html\"><code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince",
+  "version" : "0.1.0",
+  "name" : "ZimProvinceVS",
+  "title" : "Zimbabwe Province Value Set",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-11T13:57:51+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "The ten provinces of Zimbabwe.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"
+    }]
+  }
+}

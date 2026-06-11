@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/Organization/organization1> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "organization1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-organization"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-organization>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization organization1</b></p><a name=\"organization1\"> </a><a name=\"hcorganization1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-organization.html\">Zimbabwe Organization</a></p></div><p><b>identifier</b>: <a href=\"NamingSystem-zw-facility-code-ns.html\" title=\"Identifier system for Zimbabwe health facility codes (ZW + province + district + facility number). PROVISIONAL URL pending the official MOHCC system.\">ZimFacilityCode</a>/ZW010E01</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS CENTRAL}\">Central Hospital</span></p><p><b>name</b>: Parirenyatwa Group of Hospitals</p><p><b>telecom</b>: <a href=\"tel:+263242701555\">+263242701555</a></p><p><b>address</b>: Mazowe Street Harare HA ZW </p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/identifiers/facility-code"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/identifiers/facility-code>
+     ] ;
+     fhir:value [ fhir:v "ZW010E01" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS>
+       ] ;
+       fhir:code [ fhir:v "CENTRAL" ] ;
+       fhir:display [ fhir:v "Central Hospital" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Parirenyatwa Group of Hospitals"] ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+263242701555" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "Mazowe Street" ] ) ;
+     fhir:city [ fhir:v "Harare" ] ;
+     fhir:district [ fhir:v "010E" ] ;
+     fhir:state [ fhir:v "HA" ] ;
+     fhir:country [ fhir:v "ZW" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

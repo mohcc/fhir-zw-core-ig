@@ -1,0 +1,59 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ZimMaritalStatus",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimMaritalStatus</b></p><a name=\"ZimMaritalStatus\"> </a><a name=\"hcZimMaritalStatus\"> </a><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html\"><code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references\"> version &#x1F4E6;3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-widowed\">widowed</a></td><td>Widowed</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-divorced\">divorced</a></td><td>Divorced</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-married\">married</a></td><td>Married</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-unmarried\">unmarried</a></td><td>Single</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-legallySeparated\">legallySeparated</a></td><td>Separated</td></tr><tr><td><a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-commonLaw\">commonLaw</a></td><td>Cohabitation</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+  "version" : "0.1.0",
+  "name" : "ZimMaritalStatusVS",
+  "title" : "MaritalStatus Value Set",
+  "status" : "draft",
+  "date" : "2025-11-13T06:55:19+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Administrative Marital Status",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "concept" : [{
+        "code" : "widowed",
+        "display" : "Widowed"
+      },
+      {
+        "code" : "divorced",
+        "display" : "Divorced"
+      },
+      {
+        "code" : "married",
+        "display" : "Married"
+      },
+      {
+        "code" : "unmarried",
+        "display" : "Single"
+      },
+      {
+        "code" : "legallySeparated",
+        "display" : "Separated"
+      },
+      {
+        "code" : "commonLaw",
+        "display" : "Cohabitation"
+      }]
+    }]
+  }
+}

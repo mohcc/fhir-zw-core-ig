@@ -1,0 +1,994 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/address-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressType",
+    "title" : "AddressType",
+    "description" : "The type of an address (physical / postal).",
+    "systems" : ["http://hl7.org/fhir/address-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.69"],
+    "sources" : ["2.16.840.1.113883.4.642.3.69"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location",
+    "StructureDefinition-zw-related-person.html" : "Zimbabwe Related Person",
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/address-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressUse",
+    "title" : "AddressUse",
+    "description" : "The use of an address.",
+    "systems" : ["http://hl7.org/fhir/address-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.67"],
+    "sources" : ["2.16.840.1.113883.4.642.3.67"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location",
+    "StructureDefinition-zw-related-person.html" : "Zimbabwe Related Person",
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-practitioner.html" : "Zimbabwe Practitioner",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/body-site",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SNOMEDCTBodyStructures",
+    "title" : "SNOMED CT Body Structures",
+    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.141"],
+    "sources" : ["2.16.840.1.113883.4.642.3.141"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition",
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.162"],
+    "sources" : ["2.16.840.1.113883.4.642.3.162"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+    "oids" : ["2.16.840.1.113883.4.642.3.164"],
+    "sources" : ["2.16.840.1.113883.4.642.3.164"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Condition/Problem/DiagnosisCodes",
+    "title" : "Condition/Problem/Diagnosis Codes",
+    "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.161"],
+    "sources" : ["2.16.840.1.113883.4.642.3.161"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Condition/DiagnosisSeverity",
+    "title" : "Condition/Diagnosis Severity",
+    "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.168"],
+    "sources" : ["2.16.840.1.113883.4.642.3.168"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStage",
+    "title" : "Condition Stage",
+    "description" : "Example value set for stages of cancer and other conditions.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.170"],
+    "sources" : ["2.16.840.1.113883.4.642.3.170"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStageType",
+    "title" : "Condition Stage Type",
+    "description" : "Example value set for the type of stages of cancer and other conditions",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.171"],
+    "sources" : ["2.16.840.1.113883.4.642.3.171"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.166"],
+    "sources" : ["2.16.840.1.113883.4.642.3.166"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ContactPointSystem",
+    "title" : "ContactPointSystem",
+    "description" : "Telecommunications form for contact point.",
+    "systems" : ["http://hl7.org/fhir/contact-point-system"],
+    "oids" : ["2.16.840.1.113883.4.642.3.71"],
+    "sources" : ["2.16.840.1.113883.4.642.3.71"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ContactPointUse",
+    "title" : "ContactPointUse",
+    "description" : "Use of contact point.",
+    "systems" : ["http://hl7.org/fhir/contact-point-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.73"],
+    "sources" : ["2.16.840.1.113883.4.642.3.73"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ContactEntityType",
+    "title" : "Contact entity type",
+    "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/contactentity-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.416"],
+    "sources" : ["2.16.840.1.113883.4.642.3.416"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+    "oids" : ["2.16.840.1.113883.4.642.3.5"],
+    "sources" : ["2.16.840.1.113883.4.642.3.5"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "DaysOfWeek",
+    "title" : "DaysOfWeek",
+    "description" : "The days of the week.",
+    "systems" : ["http://hl7.org/fhir/days-of-week"],
+    "oids" : ["2.16.840.1.113883.4.642.3.512"],
+    "sources" : ["2.16.840.1.113883.4.642.3.512"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/diagnosis-role",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DiagnosisRole",
+    "title" : "DiagnosisRole",
+    "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/diagnosis-role"],
+    "oids" : ["2.16.840.1.113883.4.642.3.49"],
+    "sources" : ["2.16.840.1.113883.4.642.3.49"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "AdmitSource",
+    "title" : "Admit source",
+    "description" : "This value set defines a set of codes that can be used to indicate from where the patient came in.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/admit-source"],
+    "oids" : ["2.16.840.1.113883.4.642.3.257"],
+    "sources" : ["2.16.840.1.113883.4.642.3.257"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Diet",
+    "title" : "Diet",
+    "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/diet"],
+    "oids" : ["2.16.840.1.113883.4.642.3.255"],
+    "sources" : ["2.16.840.1.113883.4.642.3.255"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DischargeDisposition",
+    "title" : "Discharge disposition",
+    "description" : "This value set defines a set of codes that can be used to where the patient left the hospital.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/discharge-disposition"],
+    "oids" : ["2.16.840.1.113883.4.642.3.259"],
+    "sources" : ["2.16.840.1.113883.4.642.3.259"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EncounterLocationStatus",
+    "title" : "EncounterLocationStatus",
+    "description" : "The status of the location.",
+    "systems" : ["http://hl7.org/fhir/encounter-location-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.262"],
+    "sources" : ["2.16.840.1.113883.4.642.3.262"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ParticipantType",
+    "title" : "Participant type",
+    "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/participant-type",
+    "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"],
+    "oids" : ["2.16.840.1.113883.4.642.3.250"],
+    "sources" : ["2.16.840.1.113883.4.642.3.250"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EncounterReasonCodes",
+    "title" : "Encounter Reason Codes",
+    "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.261"],
+    "sources" : ["2.16.840.1.113883.4.642.3.261"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SpecialArrangements",
+    "title" : "Special arrangements",
+    "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-special-arrangements"],
+    "oids" : ["2.16.840.1.113883.4.642.3.253"],
+    "sources" : ["2.16.840.1.113883.4.642.3.253"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SpecialCourtesy",
+    "title" : "Special courtesy",
+    "description" : "This value set defines a set of codes that can be used to indicate special courtesies provided to the patient.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
+    "oids" : ["2.16.840.1.113883.4.642.3.252"],
+    "sources" : ["2.16.840.1.113883.4.642.3.252"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EncounterStatus",
+    "title" : "EncounterStatus",
+    "description" : "Current state of the encounter.",
+    "systems" : ["http://hl7.org/fhir/encounter-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.246"],
+    "sources" : ["2.16.840.1.113883.4.642.3.246"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EncounterType",
+    "title" : "Encounter type",
+    "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.248"],
+    "sources" : ["2.16.840.1.113883.4.642.3.248"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Identifier Type Codes",
+    "title" : "IdentifierType",
+    "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+    "oids" : ["2.16.840.1.113883.4.642.3.45"],
+    "sources" : ["2.16.840.1.113883.4.642.3.45"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-practitioner.html" : "Zimbabwe Practitioner",
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "systems" : ["http://hl7.org/fhir/identifier-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.57"],
+    "sources" : ["2.16.840.1.113883.4.642.3.57"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-practitioner.html" : "Zimbabwe Practitioner",
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-function",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationFunctionCodes",
+    "title" : "Immunization Function Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the function a practitioner or organization may play in the immunization event. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0443"],
+    "oids" : ["2.16.840.1.113883.4.642.3.995"],
+    "sources" : ["2.16.840.1.113883.4.642.3.995"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-funding-source",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationFundingSource",
+    "title" : "Immunization Funding Source",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the vaccine administered. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-funding-source"],
+    "oids" : ["2.16.840.1.113883.4.642.3.293"],
+    "sources" : ["2.16.840.1.113883.4.642.3.293"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-origin",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationOriginCodes",
+    "title" : "Immunization Origin Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the data when the report of the immunization event is not based on information from the person, entity or organization who administered the vaccine. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-origin"],
+    "oids" : ["2.16.840.1.113883.4.642.3.296"],
+    "sources" : ["2.16.840.1.113883.4.642.3.296"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationProgramEligibility",
+    "title" : "Immunization Program Eligibility",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the patient's eligibility for a vaccination program. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-program-eligibility"],
+    "oids" : ["2.16.840.1.113883.4.642.3.291"],
+    "sources" : ["2.16.840.1.113883.4.642.3.291"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationReasonCodes",
+    "title" : "Immunization Reason Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was administered. This value set is provided as a suggestive example.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.290"],
+    "sources" : ["2.16.840.1.113883.4.642.3.290"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-route",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationRouteCodes",
+    "title" : "Immunization Route Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the administrative routes used during vaccination. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"],
+    "oids" : ["2.16.840.1.113883.4.642.3.289"],
+    "sources" : ["2.16.840.1.113883.4.642.3.289"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-site",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CodesForImmunizationSiteOfAdministration",
+    "title" : "Codes for Immunization Site of Administration",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the body site where the vaccination occurred. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActSite"],
+    "oids" : ["2.16.840.1.113883.4.642.3.288"],
+    "sources" : ["2.16.840.1.113883.4.642.3.288"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationStatusCodes",
+    "title" : "Immunization Status Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the current status of the administered dose of vaccine.",
+    "systems" : ["http://hl7.org/fhir/event-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.295"],
+    "sources" : ["2.16.840.1.113883.4.642.3.295"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-status-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationStatusReasonCodes",
+    "title" : "Immunization Status Reason Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was not administered. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActReason",
+    "http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.992"],
+    "sources" : ["2.16.840.1.113883.4.642.3.992"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationSubpotentReason",
+    "title" : "Immunization Subpotent Reason",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose is considered to be subpotent. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-subpotent-reason"],
+    "oids" : ["2.16.840.1.113883.4.642.3.993"],
+    "sources" : ["2.16.840.1.113883.4.642.3.993"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-target-disease",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationTargetDiseaseCodes",
+    "title" : "Immunization Target Disease Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the disease that the dose is being administered against. This value set is provided as a suggestive example and includes the SNOMED CT concepts from the 64572001 (Disease) hierarchy.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1047"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1047"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition",
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter",
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location",
+    "StructureDefinition-zw-related-person.html" : "Zimbabwe Related Person",
+    "StructureDefinition-zw-practitioner.html" : "Zimbabwe Practitioner",
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient",
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization",
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/link-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "LinkType",
+    "title" : "LinkType",
+    "description" : "The type of link between this patient resource and another patient resource.",
+    "systems" : ["http://hl7.org/fhir/link-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.423"],
+    "sources" : ["2.16.840.1.113883.4.642.3.423"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/location-mode",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "LocationMode",
+    "title" : "LocationMode",
+    "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+    "systems" : ["http://hl7.org/fhir/location-mode"],
+    "oids" : ["2.16.840.1.113883.4.642.3.330"],
+    "sources" : ["2.16.840.1.113883.4.642.3.330"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/location-physical-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "LocationType",
+    "title" : "Location type",
+    "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/location-physical-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.328"],
+    "sources" : ["2.16.840.1.113883.4.642.3.328"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter",
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/location-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "LocationStatus",
+    "title" : "LocationStatus",
+    "description" : "Indicates whether the location is still in use.",
+    "systems" : ["http://hl7.org/fhir/location-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.332"],
+    "sources" : ["2.16.840.1.113883.4.642.3.332"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ManifestationAndSymptomCodes",
+    "title" : "Manifestation and Symptom Codes",
+    "description" : "Example value set for Manifestation and Symptom codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.169"],
+    "sources" : ["2.16.840.1.113883.4.642.3.169"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-condition.html" : "Zimbabwe Condition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/name-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "NameUse",
+    "title" : "NameUse",
+    "description" : "The use of a human name.",
+    "systems" : ["http://hl7.org/fhir/name-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.65"],
+    "sources" : ["2.16.840.1.113883.4.642.3.65"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-related-person.html" : "Zimbabwe Related Person",
+    "StructureDefinition-zw-practitioner.html" : "Zimbabwe Practitioner",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.403"],
+    "sources" : ["2.16.840.1.113883.4.642.3.403"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "LOINCCodes",
+    "title" : "LOINC Codes",
+    "description" : "This value set includes all LOINC codes",
+    "systems" : ["http://loinc.org"],
+    "oids" : ["2.16.840.1.113883.4.642.3.396"],
+    "sources" : ["2.16.840.1.113883.4.642.3.396"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationInterpretationCodes",
+    "title" : "Observation Interpretation Codes",
+    "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"],
+    "oids" : ["2.16.840.1.113883.4.642.3.399"],
+    "sources" : ["2.16.840.1.113883.4.642.3.399"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationMethods",
+    "title" : "Observation Methods",
+    "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.395"],
+    "sources" : ["2.16.840.1.113883.4.642.3.395"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "systems" : ["http://hl7.org/fhir/observation-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.400"],
+    "sources" : ["2.16.840.1.113883.4.642.3.400"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "PatientContactRelationship",
+    "title" : "Patient Contact Relationship ",
+    "description" : "The nature of the relationship between the patient and the contact person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationReferenceRangeAppliesToCodes",
+    "title" : "Observation Reference Range Applies To Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Race",
+    "http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.407"],
+    "sources" : ["2.16.840.1.113883.4.642.3.407"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/referencerange-meaning"],
+    "oids" : ["2.16.840.1.113883.4.642.3.397"],
+    "sources" : ["2.16.840.1.113883.4.642.3.397"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-observation.html" : "Zimbabwe Observation"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "PatientRelationshipType",
+    "title" : "Patient relationship type",
+    "description" : "A set of codes that can be used to indicate the relationship between a Patient and a Related Person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.4.642.3.449"],
+    "sources" : ["2.16.840.1.113883.4.642.3.449"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-related-person.html" : "Zimbabwe Related Person"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/service-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ServiceType",
+    "title" : "Service type",
+    "description" : "This value set defines an example set of codes of service-types.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.518"],
+    "sources" : ["2.16.840.1.113883.4.642.3.518"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/vaccine-code",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "VaccineAdministeredValueSet",
+    "title" : "Vaccine Administered Value Set",
+    "description" : "This identifies the vaccine substance administered - CVX codes.",
+    "systems" : ["urn:oid:1.2.36.1.2001.1005.17", "http://hl7.org/fhir/sid/cvx"],
+    "oids" : ["2.16.840.1.113883.3.88.12.80.22"],
+    "sources" : ["2.16.840.1.113883.3.88.12.80.22"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-immunization.html" : "Zimbabwe Immunization"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimCountry",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimCountryVS",
+    "title" : "Zimbabwe Country (Nationality) Value Set",
+    "description" : "Countries used for citizenship/nationality in Zimbabwe (ISO 3166-1 alpha-2 aligned).",
+    "systems" : ["http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-citizenship.html" : "Patient Citizenship"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimFacilityType",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimFacilityTypeVS",
+    "title" : "Zimbabwe Health Facility Type Value Set",
+    "description" : "Tiers of health facility in the Zimbabwe public health system.",
+    "systems" : ["http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimGenderVS",
+    "title" : "Gender Value Set",
+    "description" : "Administrative Gender",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-related-person.html" : "Zimbabwe Related Person",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimLanguageVS",
+    "title" : "Zimbabwe Language Value Set",
+    "description" : "Official languages of Zimbabwe (per the 2013 Constitution, Section 6), expressed as BCP-47 codes.",
+    "systems" : ["urn:ietf:bcp:47"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimMaritalStatusVS",
+    "title" : "MaritalStatus Value Set",
+    "description" : "Administrative Marital Status",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimProvinceVS",
+    "title" : "Zimbabwe Province Value Set",
+    "description" : "The ten provinces of Zimbabwe.",
+    "systems" : ["http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location",
+    "StructureDefinition-zw-related-person.html" : "Zimbabwe Related Person",
+    "StructureDefinition-zw-organization.html" : "Zimbabwe Organization",
+    "StructureDefinition-zw-patient.html" : "Zimbabwe Patient"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
+    "version" : "2.9",
+    "status" : "active",
+    "name" : "v2.0092",
+    "title" : "v2 RE-ADMISSION INDICATOR",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0092 ( RE-ADMISSION INDICATOR)",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0092"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
+    "version" : "2.9",
+    "status" : "active",
+    "name" : "v2.0116",
+    "title" : "v2 BED STATUS",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0116 ( BED STATUS)",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0116"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-2.7-0360",
+    "version" : "0360",
+    "status" : "active",
+    "name" : "v2.0360.2.7",
+    "title" : "v2 table 0360, Version 2.7",
+    "description" : "FHIR Value set/code system definition for HL7 v2 table 0360 ver 2.9 ( Degree/License/Certificate)",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0360|2.7"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-practitioner.html" : "Zimbabwe Practitioner"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
+    "version" : "2014-03-26",
+    "status" : "active",
+    "name" : "v3.ActEncounterCode",
+    "title" : "V3 Value SetActEncounterCode",
+    "description" : " Domain provides codes that qualify the ActEncounterClass (ENC)",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+    "oids" : ["2.16.840.1.113883.1.11.13955"],
+    "sources" : ["2.16.840.1.113883.1.11.13955"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
+    "version" : "2018-08-12",
+    "status" : "active",
+    "name" : "v3.ActPriority",
+    "title" : "v3 Code System ActPriority",
+    "description" : " A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActPriority"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-encounter.html" : "Zimbabwe Encounter"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+    "version" : "2014-03-26",
+    "status" : "active",
+    "name" : "v3.ServiceDeliveryLocationRoleType",
+    "title" : "V3 Value SetServiceDeliveryLocationRoleType",
+    "description" : " A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+    "oids" : ["2.16.840.1.113883.1.11.17660"],
+    "sources" : ["2.16.840.1.113883.1.11.17660"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-location.html" : "Zimbabwe Location"
+  }]
+}

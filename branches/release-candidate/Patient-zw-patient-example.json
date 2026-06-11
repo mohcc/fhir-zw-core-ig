@@ -1,0 +1,55 @@
+{
+  "resourceType" : "Patient",
+  "id" : "zw-patient-example",
+  "meta" : {
+    "profile" : ["http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient zw-patient-example</b></p><a name=\"zw-patient-example\"> </a><a name=\"hczw-patient-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-patient.html\">Zimbabwe Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Tendai Moyo  Female, DoB: 1985-06-15 ( National Identity:\u00a001-234567B89)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">Health ID/H987654321</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">123 Main Street Harare ZW-HA 00263 ZW </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The patient's legal status as citizen of a country.\">Patient Citizenship:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 ZW}\">Zimbabwe</span></li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "code",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ZW",
+          "display" : "Zimbabwe"
+        }]
+      }
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/patient-citizenship"
+  }],
+  "identifier" : [{
+    "type" : {
+      "text" : "National Identity"
+    },
+    "value" : "01-234567B89"
+  },
+  {
+    "type" : {
+      "text" : "Health ID"
+    },
+    "value" : "H987654321"
+  }],
+  "name" : [{
+    "family" : "Moyo",
+    "given" : ["Tendai"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1985-06-15",
+  "address" : [{
+    "line" : ["123 Main Street"],
+    "city" : "Harare",
+    "state" : "ZW-HA",
+    "postalCode" : "00263",
+    "country" : "ZW"
+  }],
+  "maritalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code" : "U"
+    }]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ZimGenderVS",
+      "title" : "Gender Value Set",
+      "description" : "Administrative Gender",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"]
+    }
+  ]
+}

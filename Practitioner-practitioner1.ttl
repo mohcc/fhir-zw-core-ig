@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/Practitioner/practitioner1> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitioner1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-practitioner"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-practitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner practitioner1</b></p><a name=\"practitioner1\"> </a><a name=\"hcpractitioner1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-practitioner.html\">Zimbabwe Practitioner</a></p></div><p><b>identifier</b>: <a href=\"NamingSystem-zw-practitioner-registration-ns.html\" title=\"Identifier system for professional council registration numbers of Zimbabwe practitioners. PROVISIONAL URL pending the official system.\">ZimPractitionerRegistration</a>/MCAZ-04521, <a href=\"NamingSystem-zw-national-identity-ns.html\" title=\"Identifier system for the Zimbabwe National Identity number. PROVISIONAL URL pending the official MOHCC system.\">ZimNationalIdentity</a>/63-123456A12</p><p><b>name</b>: Rudo Ncube (Official)</p><p><b>telecom</b>: <a href=\"tel:+263772334455\">+263772334455</a></p><p><b>gender</b>: Female</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">Registered General Nurse</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/identifiers/practitioner-registration"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/identifiers/practitioner-registration>
+     ] ;
+     fhir:value [ fhir:v "MCAZ-04521" ]
+  ] [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/identifiers/nationalID"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/identifiers/nationalID>
+     ] ;
+     fhir:value [ fhir:v "63-123456A12" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Ncube" ] ;
+     fhir:given ( [ fhir:v "Rudo" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+263772334455" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:qualification ( [
+     fhir:code [
+       fhir:text [ fhir:v "Registered General Nurse" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

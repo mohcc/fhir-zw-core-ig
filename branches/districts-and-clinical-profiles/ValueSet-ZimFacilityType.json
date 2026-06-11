@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ZimFacilityType",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimFacilityType</b></p><a name=\"ZimFacilityType\"> </a><a name=\"hcZimFacilityType\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ZimFacilityTypeCS.html\"><code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimFacilityType",
+  "version" : "0.1.0",
+  "name" : "ZimFacilityTypeVS",
+  "title" : "Zimbabwe Health Facility Type Value Set",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-11T13:57:51+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Tiers of health facility in the Zimbabwe public health system.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"
+    }]
+  }
+}

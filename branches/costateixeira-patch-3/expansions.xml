@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="5614873f-6e55-4e92-9317-0ec6783c8a74"/>
+  <meta>
+    <lastUpdated value="2026-06-11T12:03:46.179+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimCountry"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-ZimCountryCS.html">codesystem Zimbabwe Country (Nationality) Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 18 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-ZW"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-ZW">ZW</a>
+                </td>
+                <td>Zimbabwe</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW&quot;, &quot;display&quot;: &quot;Zimbabwe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW&quot;&gt;&lt;display value=&quot;Zimbabwe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-ZA"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-ZA">ZA</a>
+                </td>
+                <td>South Africa</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZA&quot;, &quot;display&quot;: &quot;South Africa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZA&quot;&gt;&lt;display value=&quot;South Africa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-ZM"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-ZM">ZM</a>
+                </td>
+                <td>Zambia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZM&quot;, &quot;display&quot;: &quot;Zambia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZM&quot;&gt;&lt;display value=&quot;Zambia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-MZ"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-MZ">MZ</a>
+                </td>
+                <td>Mozambique</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MZ&quot;, &quot;display&quot;: &quot;Mozambique&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MZ&quot;&gt;&lt;display value=&quot;Mozambique&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-BW"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-BW">BW</a>
+                </td>
+                <td>Botswana</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;BW&quot;, &quot;display&quot;: &quot;Botswana&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;BW&quot;&gt;&lt;display value=&quot;Botswana&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-MW"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-MW">MW</a>
+                </td>
+                <td>Malawi</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MW&quot;, &quot;display&quot;: &quot;Malawi&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MW&quot;&gt;&lt;display value=&quot;Malawi&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-NA"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-NA">NA</a>
+                </td>
+                <td>Namibia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;NA&quot;, &quot;display&quot;: &quot;Namibia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;NA&quot;&gt;&lt;display value=&quot;Namibia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-AO"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-AO">AO</a>
+                </td>
+                <td>Angola</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;AO&quot;, &quot;display&quot;: &quot;Angola&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;AO&quot;&gt;&lt;display value=&quot;Angola&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-CD"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-CD">CD</a>
+                </td>
+                <td>Democratic Republic of the Congo</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CD&quot;, &quot;display&quot;: &quot;Democratic Republic of the Congo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CD&quot;&gt;&lt;display value=&quot;Democratic Republic of the Congo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-TZ"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-TZ">TZ</a>
+                </td>
+                <td>United Republic of Tanzania</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;TZ&quot;, &quot;display&quot;: &quot;United Republic of Tanzania&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;TZ&quot;&gt;&lt;display value=&quot;United Republic of Tanzania&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-LS"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-LS">LS</a>
+                </td>
+                <td>Lesotho</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LS&quot;, &quot;display&quot;: &quot;Lesotho&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LS&quot;&gt;&lt;display value=&quot;Lesotho&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-SZ"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-SZ">SZ</a>
+                </td>
+                <td>Eswatini</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SZ&quot;, &quot;display&quot;: &quot;Eswatini&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SZ&quot;&gt;&lt;display value=&quot;Eswatini&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-GB"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-GB">GB</a>
+                </td>
+                <td>United Kingdom</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GB&quot;, &quot;display&quot;: &quot;United Kingdom&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GB&quot;&gt;&lt;display value=&quot;United Kingdom&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-US"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-US">US</a>
+                </td>
+                <td>United States of America</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;US&quot;, &quot;display&quot;: &quot;United States of America&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;US&quot;&gt;&lt;display value=&quot;United States of America&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-CN"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-CN">CN</a>
+                </td>
+                <td>China</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CN&quot;, &quot;display&quot;: &quot;China&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CN&quot;&gt;&lt;display value=&quot;China&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-IN"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-IN">IN</a>
+                </td>
+                <td>India</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;IN&quot;, &quot;display&quot;: &quot;India&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;IN&quot;&gt;&lt;display value=&quot;India&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-NG"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-NG">NG</a>
+                </td>
+                <td>Nigeria</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;NG&quot;, &quot;display&quot;: &quot;Nigeria&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;NG&quot;&gt;&lt;display value=&quot;Nigeria&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS-KE"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimCountryCS.html#ZimCountryCS-KE">KE</a>
+                </td>
+                <td>Kenya</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;KE&quot;, &quot;display&quot;: &quot;Kenya&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;KE&quot;&gt;&lt;display value=&quot;Kenya&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimCountry"/>
+        <version value="0.1.0"/>
+        <name value="ZimCountryVS"/>
+        <title value="Zimbabwe Country (Nationality) Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:03:46+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:feb0cfa4-3bc7-4c7c-9e1a-593e60e16979"/>
+          <timestamp value="2026-06-11T12:05:02+00:00"/>
+          <total value="18"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="ZW"/>
+            <display value="Zimbabwe"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="ZA"/>
+            <display value="South Africa"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="ZM"/>
+            <display value="Zambia"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="MZ"/>
+            <display value="Mozambique"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="BW"/>
+            <display value="Botswana"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="MW"/>
+            <display value="Malawi"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="NA"/>
+            <display value="Namibia"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="AO"/>
+            <display value="Angola"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="CD"/>
+            <display value="Democratic Republic of the Congo"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="TZ"/>
+            <display value="United Republic of Tanzania"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="LS"/>
+            <display value="Lesotho"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="SZ"/>
+            <display value="Eswatini"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="GB"/>
+            <display value="United Kingdom"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="CN"/>
+            <display value="China"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="IN"/>
+            <display value="India"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="NG"/>
+            <display value="Nigeria"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"/>
+            <code value="KE"/>
+            <display value="Kenya"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimFacilityType"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-ZimFacilityTypeCS.html">codesystem Zimbabwe Health Facility Type Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 8 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-CENTRAL"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-CENTRAL">CENTRAL</a>
+                </td>
+                <td>Central Hospital</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CENTRAL&quot;, &quot;display&quot;: &quot;Central Hospital&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CENTRAL&quot;&gt;&lt;display value=&quot;Central Hospital&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-PROVINCIAL"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-PROVINCIAL">PROVINCIAL</a>
+                </td>
+                <td>Provincial Hospital</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PROVINCIAL&quot;, &quot;display&quot;: &quot;Provincial Hospital&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PROVINCIAL&quot;&gt;&lt;display value=&quot;Provincial Hospital&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-DISTRICT"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-DISTRICT">DISTRICT</a>
+                </td>
+                <td>District Hospital</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;DISTRICT&quot;, &quot;display&quot;: &quot;District Hospital&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;DISTRICT&quot;&gt;&lt;display value=&quot;District Hospital&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-MISSION"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-MISSION">MISSION</a>
+                </td>
+                <td>Mission Hospital</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MISSION&quot;, &quot;display&quot;: &quot;Mission Hospital&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MISSION&quot;&gt;&lt;display value=&quot;Mission Hospital&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-RURALHOSP"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-RURALHOSP">RURALHOSP</a>
+                </td>
+                <td>Rural Hospital</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;RURALHOSP&quot;, &quot;display&quot;: &quot;Rural Hospital&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;RURALHOSP&quot;&gt;&lt;display value=&quot;Rural Hospital&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-RHC"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-RHC">RHC</a>
+                </td>
+                <td>Rural Health Centre</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;RHC&quot;, &quot;display&quot;: &quot;Rural Health Centre&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;RHC&quot;&gt;&lt;display value=&quot;Rural Health Centre&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-CLINIC"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-CLINIC">CLINIC</a>
+                </td>
+                <td>Clinic</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CLINIC&quot;, &quot;display&quot;: &quot;Clinic&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CLINIC&quot;&gt;&lt;display value=&quot;Clinic&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS-POLYCLINIC"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimFacilityTypeCS.html#ZimFacilityTypeCS-POLYCLINIC">POLYCLINIC</a>
+                </td>
+                <td>Polyclinic</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;POLYCLINIC&quot;, &quot;display&quot;: &quot;Polyclinic&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;POLYCLINIC&quot;&gt;&lt;display value=&quot;Polyclinic&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimFacilityType"/>
+        <version value="0.1.0"/>
+        <name value="ZimFacilityTypeVS"/>
+        <title value="Zimbabwe Health Facility Type Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:03:46+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:3925a1b9-1dda-4f08-9222-de92f90a684c"/>
+          <timestamp value="2026-06-11T12:05:02+00:00"/>
+          <total value="8"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="CENTRAL"/>
+            <display value="Central Hospital"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="PROVINCIAL"/>
+            <display value="Provincial Hospital"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="DISTRICT"/>
+            <display value="District Hospital"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="MISSION"/>
+            <display value="Mission Hospital"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="RURALHOSP"/>
+            <display value="Rural Hospital"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="RHC"/>
+            <display value="Rural Health Centre"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="CLINIC"/>
+            <display value="Clinic"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+            <code value="POLYCLINIC"/>
+            <display value="Polyclinic"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-male"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td>Male</td>
+                <td>Male.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-female"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td>Female</td>
+                <td>Female.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-other"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-unknown"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a>
+                </td>
+                <td>Unknown</td>
+                <td>Unknown.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;unknown&quot;, &quot;display&quot;: &quot;Unknown&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;display value=&quot;Unknown&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender"/>
+        <version value="0.1.0"/>
+        <name value="ZimGenderVS"/>
+        <title value="Gender Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:03:46+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ae8935d9-7d4b-4f66-8593-7bfeeb865076"/>
+          <timestamp value="2026-06-11T12:05:01+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 13 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-en"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  en</td>
+                <td>English</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;en&quot;, &quot;display&quot;: &quot;English&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;en&quot;&gt;&lt;display value=&quot;English&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-sn"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  sn</td>
+                <td>Shona</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;sn&quot;, &quot;display&quot;: &quot;Shona&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;sn&quot;&gt;&lt;display value=&quot;Shona&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-nd"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  nd</td>
+                <td>North Ndebele</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;nd&quot;, &quot;display&quot;: &quot;North Ndebele&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;nd&quot;&gt;&lt;display value=&quot;North Ndebele&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-ndc"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  ndc</td>
+                <td>Ndau</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;ndc&quot;, &quot;display&quot;: &quot;Ndau&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;ndc&quot;&gt;&lt;display value=&quot;Ndau&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-kck"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  kck</td>
+                <td>Kalanga</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;kck&quot;, &quot;display&quot;: &quot;Kalanga&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;kck&quot;&gt;&lt;display value=&quot;Kalanga&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-toi"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  toi</td>
+                <td>Tonga (Zambia)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;toi&quot;, &quot;display&quot;: &quot;Tonga (Zambia)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;toi&quot;&gt;&lt;display value=&quot;Tonga (Zambia)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-nmq"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  nmq</td>
+                <td>Nambya</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;nmq&quot;, &quot;display&quot;: &quot;Nambya&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;nmq&quot;&gt;&lt;display value=&quot;Nambya&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-ny"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  ny</td>
+                <td>Nyanja</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;ny&quot;, &quot;display&quot;: &quot;Nyanja&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;ny&quot;&gt;&lt;display value=&quot;Nyanja&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-tn"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  tn</td>
+                <td>Tswana</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;tn&quot;, &quot;display&quot;: &quot;Tswana&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;tn&quot;&gt;&lt;display value=&quot;Tswana&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-st"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  st</td>
+                <td>Southern Sotho</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;st&quot;, &quot;display&quot;: &quot;Southern Sotho&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;st&quot;&gt;&lt;display value=&quot;Southern Sotho&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-ve"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  ve</td>
+                <td>Venda</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;ve&quot;, &quot;display&quot;: &quot;Venda&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;ve&quot;&gt;&lt;display value=&quot;Venda&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-xh"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  xh</td>
+                <td>Xhosa</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;xh&quot;, &quot;display&quot;: &quot;Xhosa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;xh&quot;&gt;&lt;display value=&quot;Xhosa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-urn:ietf:bcp:47-ts"> </a>
+                  <code>urn:ietf:bcp:47</code>
+                </td>
+                <td style="white-space:nowrap">  ts</td>
+                <td>Tsonga</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;urn:ietf:bcp:47&quot;, &quot;code&quot;: &quot;ts&quot;, &quot;display&quot;: &quot;Tsonga&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;urn:ietf:bcp:47&quot;&gt;&lt;code value=&quot;ts&quot;&gt;&lt;display value=&quot;Tsonga&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage"/>
+        <version value="0.1.0"/>
+        <name value="ZimLanguageVS"/>
+        <title value="Zimbabwe Language Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:03:46+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:04c47378-f3b3-46cf-bb43-160ba0b9d9e5"/>
+          <timestamp value="2026-06-11T12:05:02+00:00"/>
+          <total value="13"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="urn:ietf:bcp:47"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="en"/>
+            <display value="English"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="sn"/>
+            <display value="Shona"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nd"/>
+            <display value="North Ndebele"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ndc"/>
+            <display value="Ndau"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="kck"/>
+            <display value="Kalanga"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="toi"/>
+            <display value="Tonga (Zambia)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="nmq"/>
+            <display value="Nambya"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ny"/>
+            <display value="Nyanja"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="tn"/>
+            <display value="Tswana"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="st"/>
+            <display value="Southern Sotho"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ve"/>
+            <display value="Venda"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="xh"/>
+            <display value="Xhosa"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:bcp:47"/>
+            <code value="ts"/>
+            <display value="Tsonga"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on codesystem v3 Code System MaritalStatus version 2018-08-12
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|2018-08-12" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-W"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/v3/MaritalStatus/cs.html#v3-MaritalStatus-W">W</a>
+                </td>
+                <td>Widowed</td>
+                <td>The spouse has died</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;2018-08-12&quot;, &quot;code&quot;: &quot;W&quot;, &quot;display&quot;: &quot;Widowed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;2018-08-12&quot;&gt;&lt;code value=&quot;W&quot;&gt;&lt;display value=&quot;Widowed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-D"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/v3/MaritalStatus/cs.html#v3-MaritalStatus-D">D</a>
+                </td>
+                <td>Divorced</td>
+                <td>Marriage contract has been declared dissolved and inactive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;2018-08-12&quot;, &quot;code&quot;: &quot;D&quot;, &quot;display&quot;: &quot;Divorced&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;2018-08-12&quot;&gt;&lt;code value=&quot;D&quot;&gt;&lt;display value=&quot;Divorced&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-M"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/v3/MaritalStatus/cs.html#v3-MaritalStatus-M">M</a>
+                </td>
+                <td>Married</td>
+                <td>A current marriage contract is active</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;2018-08-12&quot;, &quot;code&quot;: &quot;M&quot;, &quot;display&quot;: &quot;Married&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;2018-08-12&quot;&gt;&lt;code value=&quot;M&quot;&gt;&lt;display value=&quot;Married&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-U"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/v3/MaritalStatus/cs.html#v3-MaritalStatus-U">U</a>
+                </td>
+                <td>unmarried</td>
+                <td>Currently not in a marriage contract.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;2018-08-12&quot;, &quot;code&quot;: &quot;U&quot;, &quot;display&quot;: &quot;unmarried&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;2018-08-12&quot;&gt;&lt;code value=&quot;U&quot;&gt;&lt;display value=&quot;unmarried&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-L"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/v3/MaritalStatus/cs.html#v3-MaritalStatus-L">L</a>
+                </td>
+                <td>Legally Separated</td>
+                <td>Legally Separated</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;2018-08-12&quot;, &quot;code&quot;: &quot;L&quot;, &quot;display&quot;: &quot;Legally Separated&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;2018-08-12&quot;&gt;&lt;code value=&quot;L&quot;&gt;&lt;display value=&quot;Legally Separated&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-T"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/v3/MaritalStatus/cs.html#v3-MaritalStatus-T">T</a>
+                </td>
+                <td>Domestic partner</td>
+                <td>Person declares that a domestic partner relationship exists.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;2018-08-12&quot;, &quot;code&quot;: &quot;T&quot;, &quot;display&quot;: &quot;Domestic partner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;2018-08-12&quot;&gt;&lt;code value=&quot;T&quot;&gt;&lt;display value=&quot;Domestic partner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus"/>
+        <version value="0.1.0"/>
+        <name value="ZimMaritalStatusVS"/>
+        <title value="MaritalStatus Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:03:46+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f58d8f4c-6663-47e4-91f5-295857bac9c7"/>
+          <timestamp value="2026-06-11T12:05:01+00:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|2018-08-12"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="W"/>
+            <display value="Widowed"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="D"/>
+            <display value="Divorced"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="M"/>
+            <display value="Married"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="U"/>
+            <display value="unmarried"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="L"/>
+            <display value="Legally Separated"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="T"/>
+            <display value="Domestic partner"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-ZimProvinceCS.html">codesystem Zimbabwe Province Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 10 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-HA"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-HA">HA</a>
+                </td>
+                <td>Harare</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;HA&quot;, &quot;display&quot;: &quot;Harare&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;HA&quot;&gt;&lt;display value=&quot;Harare&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-MA"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-MA">MA</a>
+                </td>
+                <td>Manicaland</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MA&quot;, &quot;display&quot;: &quot;Manicaland&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MA&quot;&gt;&lt;display value=&quot;Manicaland&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-MC"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-MC">MC</a>
+                </td>
+                <td>Mashonaland Central</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MC&quot;, &quot;display&quot;: &quot;Mashonaland Central&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MC&quot;&gt;&lt;display value=&quot;Mashonaland Central&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-ME"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-ME">ME</a>
+                </td>
+                <td>Mashonaland East</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ME&quot;, &quot;display&quot;: &quot;Mashonaland East&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ME&quot;&gt;&lt;display value=&quot;Mashonaland East&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-MW"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-MW">MW</a>
+                </td>
+                <td>Mashonaland West</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MW&quot;, &quot;display&quot;: &quot;Mashonaland West&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MW&quot;&gt;&lt;display value=&quot;Mashonaland West&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-MN"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-MN">MN</a>
+                </td>
+                <td>Matabeleland North</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MN&quot;, &quot;display&quot;: &quot;Matabeleland North&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MN&quot;&gt;&lt;display value=&quot;Matabeleland North&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-MS"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-MS">MS</a>
+                </td>
+                <td>Matabeleland South</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MS&quot;, &quot;display&quot;: &quot;Matabeleland South&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MS&quot;&gt;&lt;display value=&quot;Matabeleland South&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-MI"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-MI">MI</a>
+                </td>
+                <td>Midlands</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MI&quot;, &quot;display&quot;: &quot;Midlands&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MI&quot;&gt;&lt;display value=&quot;Midlands&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-MV"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-MV">MV</a>
+                </td>
+                <td>Masvingo</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MV&quot;, &quot;display&quot;: &quot;Masvingo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MV&quot;&gt;&lt;display value=&quot;Masvingo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS-BU"> </a>
+                  <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ZimProvinceCS.html#ZimProvinceCS-BU">BU</a>
+                </td>
+                <td>Bulawayo</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;BU&quot;, &quot;display&quot;: &quot;Bulawayo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;BU&quot;&gt;&lt;display value=&quot;Bulawayo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince"/>
+        <version value="0.1.0"/>
+        <name value="ZimProvinceVS"/>
+        <title value="Zimbabwe Province Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:03:46+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c2fad268-87f2-482d-80a4-650290d7272d"/>
+          <timestamp value="2026-06-11T12:05:02+00:00"/>
+          <total value="10"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="HA"/>
+            <display value="Harare"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="MA"/>
+            <display value="Manicaland"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="MC"/>
+            <display value="Mashonaland Central"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="ME"/>
+            <display value="Mashonaland East"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="MW"/>
+            <display value="Mashonaland West"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="MN"/>
+            <display value="Matabeleland North"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="MS"/>
+            <display value="Matabeleland South"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="MI"/>
+            <display value="Midlands"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="MV"/>
+            <display value="Masvingo"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+            <code value="BU"/>
+            <display value="Bulawayo"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

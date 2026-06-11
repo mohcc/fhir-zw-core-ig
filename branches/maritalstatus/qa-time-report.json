@@ -1,0 +1,331 @@
+{
+  "date" : "Thu, 13 Nov, 2025 08:00:22 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json",
+      "size" : 2316,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 19
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 37,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 73
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 2408
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 67
+        },
+        {
+          "activity" : "generate2",
+          "start" : 44,
+          "length" : 54
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 52,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 57,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ZWPatientIdentifier.json",
+      "size" : 2567,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 20
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 118
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 131
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 647
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 42,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 271
+        },
+        {
+          "activity" : "generate2",
+          "start" : 44,
+          "length" : 1115
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 1150
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 52,
+          "length" : 19
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 57,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 57,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-zw-patient.json",
+      "size" : 1500,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 77
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 47
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 216
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 161
+        },
+        {
+          "activity" : "generate2",
+          "start" : 45,
+          "length" : 584
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 283
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 52,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ZimGender.json",
+      "size" : 645,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 16
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 49
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 1336
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 45,
+          "length" : 554
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 52,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ZimMaritalStatus.json",
+      "size" : 940,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 24
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 58
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 103
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 52,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/fsh-link-references.md",
+      "size" : 208,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/menu.xml",
+      "size" : 1236
+    },
+    {
+      "name" : "/input/data/features.yaml",
+      "size" : 84
+    },
+    {
+      "name" : "/input/pagecontent/downloads.md",
+      "size" : 963
+    },
+    {
+      "name" : "/input/pagecontent/index.md",
+      "size" : 752
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 140,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images",
+      "size" : 0
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 2813
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ZimProvinceCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ZimProvinceCS</b></p><a name=\"ZimProvinceCS\"> </a><a name=\"hcZimProvinceCS\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>facilityCode</td><td>facilityCode</td><td>string</td><td>Two-digit province number used as the province segment of a national facility code (per the MOHCC province table).</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>facilityCode</b></td></tr><tr><td style=\"white-space:nowrap\">HA<a name=\"ZimProvinceCS-HA\"> </a></td><td>Harare</td><td>01</td></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"ZimProvinceCS-MA\"> </a></td><td>Manicaland</td><td>02</td></tr><tr><td style=\"white-space:nowrap\">MC<a name=\"ZimProvinceCS-MC\"> </a></td><td>Mashonaland Central</td><td>03</td></tr><tr><td style=\"white-space:nowrap\">ME<a name=\"ZimProvinceCS-ME\"> </a></td><td>Mashonaland East</td><td>04</td></tr><tr><td style=\"white-space:nowrap\">MW<a name=\"ZimProvinceCS-MW\"> </a></td><td>Mashonaland West</td><td>05</td></tr><tr><td style=\"white-space:nowrap\">MN<a name=\"ZimProvinceCS-MN\"> </a></td><td>Matabeleland North</td><td>06</td></tr><tr><td style=\"white-space:nowrap\">MS<a name=\"ZimProvinceCS-MS\"> </a></td><td>Matabeleland South</td><td>07</td></tr><tr><td style=\"white-space:nowrap\">MI<a name=\"ZimProvinceCS-MI\"> </a></td><td>Midlands</td><td>08</td></tr><tr><td style=\"white-space:nowrap\">MV<a name=\"ZimProvinceCS-MV\"> </a></td><td>Masvingo</td><td>09</td></tr><tr><td style=\"white-space:nowrap\">BU<a name=\"ZimProvinceCS-BU\"> </a></td><td>Bulawayo</td><td>10</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ZimProvinceCS"] ; # 
+  fhir:title [ fhir:v "Zimbabwe Province Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T12:30:02+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The ten provinces of Zimbabwe. The 'facilityCode' property gives the two-digit province number (01-10) used as the province segment of a national facility code. Concept codes are also aligned with ISO 3166-2:ZW subdivisions (e.g. HA = ZW-HA)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "facilityCode" ] ;
+     fhir:description [ fhir:v "Two-digit province number used as the province segment of a national facility code (per the MOHCC province table)." ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "HA" ] ;
+     fhir:display [ fhir:v "Harare" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "01"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MA" ] ;
+     fhir:display [ fhir:v "Manicaland" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "02"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MC" ] ;
+     fhir:display [ fhir:v "Mashonaland Central" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "03"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ME" ] ;
+     fhir:display [ fhir:v "Mashonaland East" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "04"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MW" ] ;
+     fhir:display [ fhir:v "Mashonaland West" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "05"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MN" ] ;
+     fhir:display [ fhir:v "Matabeleland North" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "06"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MS" ] ;
+     fhir:display [ fhir:v "Matabeleland South" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "07"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MI" ] ;
+     fhir:display [ fhir:v "Midlands" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "08"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MV" ] ;
+     fhir:display [ fhir:v "Masvingo" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "09"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BU" ] ;
+     fhir:display [ fhir:v "Bulawayo" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "facilityCode" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "10"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

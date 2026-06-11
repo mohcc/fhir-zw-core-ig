@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="procedure1"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-procedure"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Procedure procedure1</b></p><a name="procedure1"> </a><a name="hcprocedure1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-procedure.html">Zimbabwe Procedure</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title="Codes:">Malaria rapid diagnostic test (RDT)</span></p><p><b>subject</b>: <a href="Patient-zw-patient-example.html">Tendai Moyo (official) Female, DoB: 1985-06-15 ( http://mohcc.gov.zw/identifiers/nationalID#ZimNationalIdentity#01-234567B89)</a></p><p><b>encounter</b>: <a href="Encounter-encounter1.html">Encounter: status = finished; class = ambulatory (v3 Code System ActCode#AMB); period = 2026-05-01 09:00:00+0200 --&gt; 2026-05-01 09:30:00+0200</a></p><p><b>performed</b>: 2026-05-01</p><h3>Performers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-practitioner1.html">Practitioner Rudo Ncube (official)</a></td></tr></table><p><b>location</b>: <a href="Location-location1.html">Location Parirenyatwa Outpatients Department</a></p><p><b>reasonReference</b>: <a href="Condition-condition1.html">Condition Unspecified malaria</a></p></div>
+  </text>
+  <status value="completed"/>
+  <code>
+    <text value="Malaria rapid diagnostic test (RDT)"/>
+  </code>
+  <subject>
+    <reference value="Patient/zw-patient-example"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/encounter1"/>
+  </encounter>
+  <performedDateTime value="2026-05-01"/>
+  <performer>
+    <actor>
+      <reference value="Practitioner/practitioner1"/>
+    </actor>
+  </performer>
+  <location>
+    <reference value="Location/location1"/>
+  </location>
+  <reasonReference>
+    <reference value="Condition/condition1"/>
+  </reasonReference>
+</Procedure>

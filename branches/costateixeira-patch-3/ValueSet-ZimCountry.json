@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ZimCountry",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimCountry</b></p><a name=\"ZimCountry\"> </a><a name=\"hcZimCountry\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ZimCountryCS.html\"><code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimCountry",
+  "version" : "0.1.0",
+  "name" : "ZimCountryVS",
+  "title" : "Zimbabwe Country (Nationality) Value Set",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-11T12:03:46+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Countries used for citizenship/nationality in Zimbabwe (ISO 3166-1 alpha-2 aligned).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"
+    }]
+  }
+}

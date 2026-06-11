@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ZimFacilityTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ZimFacilityTypeCS</b></p><a name="ZimFacilityTypeCS"> </a><a name="hcZimFacilityTypeCS"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CENTRAL<a name="ZimFacilityTypeCS-CENTRAL"> </a></td><td>Central Hospital</td></tr><tr><td style="white-space:nowrap">PROVINCIAL<a name="ZimFacilityTypeCS-PROVINCIAL"> </a></td><td>Provincial Hospital</td></tr><tr><td style="white-space:nowrap">DISTRICT<a name="ZimFacilityTypeCS-DISTRICT"> </a></td><td>District Hospital</td></tr><tr><td style="white-space:nowrap">MISSION<a name="ZimFacilityTypeCS-MISSION"> </a></td><td>Mission Hospital</td></tr><tr><td style="white-space:nowrap">RURALHOSP<a name="ZimFacilityTypeCS-RURALHOSP"> </a></td><td>Rural Hospital</td></tr><tr><td style="white-space:nowrap">RHC<a name="ZimFacilityTypeCS-RHC"> </a></td><td>Rural Health Centre</td></tr><tr><td style="white-space:nowrap">CLINIC<a name="ZimFacilityTypeCS-CLINIC"> </a></td><td>Clinic</td></tr><tr><td style="white-space:nowrap">POLYCLINIC<a name="ZimFacilityTypeCS-POLYCLINIC"> </a></td><td>Polyclinic</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"/>
+  <version value="0.1.0"/>
+  <name value="ZimFacilityTypeCS"/>
+  <title value="Zimbabwe Health Facility Type Code System"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T13:57:51+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Tiers of health facility in the Zimbabwe public health system."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="CENTRAL"/>
+    <display value="Central Hospital"/>
+  </concept>
+  <concept>
+    <code value="PROVINCIAL"/>
+    <display value="Provincial Hospital"/>
+  </concept>
+  <concept>
+    <code value="DISTRICT"/>
+    <display value="District Hospital"/>
+  </concept>
+  <concept>
+    <code value="MISSION"/>
+    <display value="Mission Hospital"/>
+  </concept>
+  <concept>
+    <code value="RURALHOSP"/>
+    <display value="Rural Hospital"/>
+  </concept>
+  <concept>
+    <code value="RHC"/>
+    <display value="Rural Health Centre"/>
+  </concept>
+  <concept>
+    <code value="CLINIC"/>
+    <display value="Clinic"/>
+  </concept>
+  <concept>
+    <code value="POLYCLINIC"/>
+    <display value="Polyclinic"/>
+  </concept>
+</CodeSystem>

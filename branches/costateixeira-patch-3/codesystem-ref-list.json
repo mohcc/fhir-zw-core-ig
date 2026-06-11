@@ -1,0 +1,59 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "ValueSet-ZimGender.html" : "Gender Value Set"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimCountryCS",
+    "title" : "Zimbabwe Country (Nationality) Code System",
+    "description" : "Countries used for citizenship/nationality in Zimbabwe. Codes are aligned with ISO 3166-1 alpha-2. Defined locally so terminology validation does not depend on ISO 3166 server support; extend as needed.",
+    "uses" : {
+    },
+    "ValueSet-ZimCountry.html" : "Zimbabwe Country (Nationality) Value Set"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimFacilityTypeCS",
+    "title" : "Zimbabwe Health Facility Type Code System",
+    "description" : "Tiers of health facility in the Zimbabwe public health system.",
+    "uses" : {
+    },
+    "ValueSet-ZimFacilityType.html" : "Zimbabwe Health Facility Type Value Set"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimProvinceCS",
+    "title" : "Zimbabwe Province Code System",
+    "description" : "The ten provinces of Zimbabwe. The 'facilityCode' property gives the two-digit province number (01-10) used as the province segment of a national facility code. Concept codes are also aligned with ISO 3166-2:ZW subdivisions (e.g. HA = ZW-HA).",
+    "uses" : {
+    },
+    "ValueSet-ZimProvince.html" : "Zimbabwe Province Value Set"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "version" : "2018-08-12",
+    "status" : "active",
+    "name" : "v3.MaritalStatus",
+    "title" : "v3 Code System MaritalStatus",
+    "description" : " * * * No description supplied * * *  Open Issue:\r\nThe specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.",
+    "oids" : ["2.16.840.1.113883.5.2"],
+    "uses" : {
+    },
+    "ValueSet-ZimMaritalStatus.html" : "MaritalStatus Value Set"
+  }]
+}

@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ZimProvince"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimProvince</b></p><a name=\"ZimProvince\"> </a><a name=\"hcZimProvince\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ZimProvinceCS.html\"><code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ZimProvinceVS"] ; # 
+  fhir:title [ fhir:v "Zimbabwe Province Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T13:57:51+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The ten provinces of Zimbabwe."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS>
+       ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

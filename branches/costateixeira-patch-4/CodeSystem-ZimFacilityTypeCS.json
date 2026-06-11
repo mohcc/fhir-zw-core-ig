@@ -1,0 +1,66 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ZimFacilityTypeCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ZimFacilityTypeCS</b></p><a name=\"ZimFacilityTypeCS\"> </a><a name=\"hcZimFacilityTypeCS\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CENTRAL<a name=\"ZimFacilityTypeCS-CENTRAL\"> </a></td><td>Central Hospital</td></tr><tr><td style=\"white-space:nowrap\">PROVINCIAL<a name=\"ZimFacilityTypeCS-PROVINCIAL\"> </a></td><td>Provincial Hospital</td></tr><tr><td style=\"white-space:nowrap\">DISTRICT<a name=\"ZimFacilityTypeCS-DISTRICT\"> </a></td><td>District Hospital</td></tr><tr><td style=\"white-space:nowrap\">MISSION<a name=\"ZimFacilityTypeCS-MISSION\"> </a></td><td>Mission Hospital</td></tr><tr><td style=\"white-space:nowrap\">RURALHOSP<a name=\"ZimFacilityTypeCS-RURALHOSP\"> </a></td><td>Rural Hospital</td></tr><tr><td style=\"white-space:nowrap\">RHC<a name=\"ZimFacilityTypeCS-RHC\"> </a></td><td>Rural Health Centre</td></tr><tr><td style=\"white-space:nowrap\">CLINIC<a name=\"ZimFacilityTypeCS-CLINIC\"> </a></td><td>Clinic</td></tr><tr><td style=\"white-space:nowrap\">POLYCLINIC<a name=\"ZimFacilityTypeCS-POLYCLINIC\"> </a></td><td>Polyclinic</td></tr></table></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS",
+  "version" : "0.1.0",
+  "name" : "ZimFacilityTypeCS",
+  "title" : "Zimbabwe Health Facility Type Code System",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-11T12:30:02+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Tiers of health facility in the Zimbabwe public health system.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "CENTRAL",
+    "display" : "Central Hospital"
+  },
+  {
+    "code" : "PROVINCIAL",
+    "display" : "Provincial Hospital"
+  },
+  {
+    "code" : "DISTRICT",
+    "display" : "District Hospital"
+  },
+  {
+    "code" : "MISSION",
+    "display" : "Mission Hospital"
+  },
+  {
+    "code" : "RURALHOSP",
+    "display" : "Rural Hospital"
+  },
+  {
+    "code" : "RHC",
+    "display" : "Rural Health Centre"
+  },
+  {
+    "code" : "CLINIC",
+    "display" : "Clinic"
+  },
+  {
+    "code" : "POLYCLINIC",
+    "display" : "Polyclinic"
+  }]
+}

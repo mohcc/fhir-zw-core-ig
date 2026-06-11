@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="immunization1"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-immunization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Immunization immunization1</b></p><a name="immunization1"> </a><a name="hcimmunization1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-immunization.html">Zimbabwe Immunization</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://hl7.org/fhir/sid/cvx 19}">BCG</span></p><p><b>patient</b>: <a href="Patient-zw-patient-example.html">Tendai Moyo (official) Female, DoB: 1985-06-15 ( http://mohcc.gov.zw/identifiers/nationalID#ZimNationalIdentity#01-234567B89)</a></p><p><b>occurrence</b>: 1985-06-15</p><p><b>primarySource</b>: true</p><p><b>location</b>: <a href="Location-location1.html">Location Parirenyatwa Outpatients Department</a></p><p><b>lotNumber</b>: BCG-2026-001</p><h3>Performers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-practitioner1.html">Practitioner Rudo Ncube (official)</a></td></tr></table></div>
+  </text>
+  <status value="completed"/>
+  <vaccineCode>
+    <coding>
+      <system value="http://hl7.org/fhir/sid/cvx"/>
+      <code value="19"/>
+    </coding>
+    <text value="BCG"/>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/zw-patient-example"/>
+  </patient>
+  <occurrenceDateTime value="1985-06-15"/>
+  <primarySource value="true"/>
+  <location>
+    <reference value="Location/location1"/>
+  </location>
+  <lotNumber value="BCG-2026-001"/>
+  <performer>
+    <actor>
+      <reference value="Practitioner/practitioner1"/>
+    </actor>
+  </performer>
+</Immunization>

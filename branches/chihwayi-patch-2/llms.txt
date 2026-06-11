@@ -1,0 +1,25 @@
+# zw.fhir.ig.core#0.1.0: Zimbabwe Core IG
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Gender Value Set](ValueSet-ZimGender.md)
+
+### Resource Profiles
+
+* [ZWPatientIdentifier](StructureDefinition-ZWPatientIdentifier.md)
+* [Zimbabwe Patient](StructureDefinition-zw-patient.md)
+
+### Extensions
+
+* [Patient Citizenship](StructureDefinition-citizenship.md)
+
+### ImplementationGuides
+
+* [Zimbabwe Core IG](index.md)

@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/Location/location1> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "location1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-location"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-location>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location location1</b></p><a name=\"location1\"> </a><a name=\"hclocation1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-location.html\">Zimbabwe Location</a></p></div><p><b>status</b>: Active</p><p><b>name</b>: Parirenyatwa Outpatients Department</p><p><b>type</b>: <span title=\"Codes:\">Outpatients Department</span></p><p><b>address</b>: Harare HA ZW </p><p><b>managingOrganization</b>: <a href=\"Organization-organization1.html\">Organization Parirenyatwa Group of Hospitals</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:name [ fhir:v "Parirenyatwa Outpatients Department"] ; # 
+  fhir:type ( [
+     fhir:text [ fhir:v "Outpatients Department" ]
+  ] ) ; # 
+  fhir:address [
+     fhir:city [ fhir:v "Harare" ] ;
+     fhir:district [ fhir:v "Harare" ] ;
+     fhir:state [ fhir:v "HA" ] ;
+     fhir:country [ fhir:v "ZW" ]
+  ] ; # 
+  fhir:managingOrganization [
+     fhir:l <http://mohcc.gov.zw/fhir/core/Organization/organization1> ;
+     fhir:reference [ fhir:v "Organization/organization1" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

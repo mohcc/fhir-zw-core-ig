@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="zw-facility-code-ns"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem zw-facility-code-ns</b></p><a name="zw-facility-code-ns"> </a><a name="hczw-facility-code-ns"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>http://mohcc.gov.zw/fhir/core/NamingSystem/zw-facility-code-ns</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>ZimFacilityCode</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifier system for Zimbabwe health facility codes (ZW + province + district + facility number). PROVISIONAL URL pending the official MOHCC system.</p>
+</div></td></tr><tr><td>Publisher</td><td>MOH Zimbabwe</td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://mohcc.gov.zw/identifiers/facility-code</td><td>true</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="http://mohcc.gov.zw/fhir/core/NamingSystem/zw-facility-code-ns"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <name value="ZimFacilityCode"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2026-06-10"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Identifier system for Zimbabwe health facility codes (ZW + province + district + facility number). PROVISIONAL URL pending the official MOHCC system."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://mohcc.gov.zw/identifiers/facility-code"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>

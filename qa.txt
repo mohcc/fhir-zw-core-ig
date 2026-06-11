@@ -1,0 +1,107 @@
+ZWCore : Validation Results
+=========================================
+
+err = 0, warn = 0, info = 12
+IG Publisher Version: 2.2.8 Out of date - current version is null
+Generated Thu Jun 11 14:01:14 UTC 2026. FHIR version 4.0.1 for zw.fhir.ig.core#0.1.0 (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 0 / 0 / 0
+ /work/fsh-generated/resources/AllergyIntolerance-allergyintolerance1 : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-ZimCountryCS : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-ZimDistrictCS : 0 / 0 / 2
+ /work/fsh-generated/resources/CodeSystem-ZimFacilityTypeCS : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-ZimProvinceCS : 0 / 0 / 2
+ /work/fsh-generated/resources/Condition-condition1 : 0 / 0 / 1
+ /work/fsh-generated/resources/Encounter-encounter1 : 0 / 0 / 2
+ /work/fsh-generated/resources/Immunization-immunization1 : 0 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 0 / 0 / 1
+ /work/fsh-generated/resources/Location-location1 : 0 / 0 / 1
+ /work/fsh-generated/resources/MedicationRequest-medicationrequest1 : 0 / 0 / 1
+ /work/fsh-generated/resources/NamingSystem-zw-facility-code-ns : 0 / 0 / 1
+ /work/fsh-generated/resources/NamingSystem-zw-national-identity-ns : 0 / 0 / 1
+ /work/fsh-generated/resources/NamingSystem-zw-passport-ns : 0 / 0 / 1
+ /work/fsh-generated/resources/NamingSystem-zw-phid-ns : 0 / 0 / 1
+ /work/fsh-generated/resources/NamingSystem-zw-practitioner-registration-ns : 0 / 0 / 1
+ /work/fsh-generated/resources/Observation-observation1 : 0 / 0 / 2
+ /work/fsh-generated/resources/Organization-organization1 : 0 / 0 / 1
+ /work/fsh-generated/resources/Patient-patient1 : 0 / 0 / 2
+ /work/fsh-generated/resources/Patient-zw-patient-example : 0 / 0 / 2
+ /work/fsh-generated/resources/Practitioner-practitioner1 : 0 / 0 / 1
+ /work/fsh-generated/resources/Procedure-procedure1 : 0 / 0 / 1
+ /work/fsh-generated/resources/RelatedPerson-relatedperson1 : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-citizenship : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-allergy-intolerance : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-zw-condition : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-encounter : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-immunization : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-location : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-medication-request : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-observation : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-organization : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-patient : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-zw-practitioner : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-procedure : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-related-person : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimCountry : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimDistrict : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimFacilityType : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimGender : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimLanguage : 0 / 0 / 5
+ /work/fsh-generated/resources/ValueSet-ZimMaritalStatus : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimProvince : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/AllergyIntolerance-allergyintolerance1.json ==
+== fsh-generated/resources/CodeSystem-ZimCountryCS.json ==
+== fsh-generated/resources/CodeSystem-ZimDistrictCS.json ==
+INFORMATION: CodeSystem/ZimDistrictCS: CodeSystem.property[0]: This property has only a code ('provinceCode') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== fsh-generated/resources/CodeSystem-ZimFacilityTypeCS.json ==
+== fsh-generated/resources/CodeSystem-ZimProvinceCS.json ==
+INFORMATION: CodeSystem/ZimProvinceCS: CodeSystem.property[0]: This property has only a code ('provinceCode') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== fsh-generated/resources/Condition-condition1.json ==
+== fsh-generated/resources/Encounter-encounter1.json ==
+INFORMATION: Encounter/encounter1: Encounter.class: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ActCode|2018-08-12
+== fsh-generated/resources/Immunization-immunization1.json ==
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+== fsh-generated/resources/Location-location1.json ==
+== fsh-generated/resources/MedicationRequest-medicationrequest1.json ==
+== fsh-generated/resources/NamingSystem-zw-facility-code-ns.json ==
+== fsh-generated/resources/NamingSystem-zw-national-identity-ns.json ==
+== fsh-generated/resources/NamingSystem-zw-passport-ns.json ==
+== fsh-generated/resources/NamingSystem-zw-phid-ns.json ==
+== fsh-generated/resources/NamingSystem-zw-practitioner-registration-ns.json ==
+== fsh-generated/resources/Observation-observation1.json ==
+== fsh-generated/resources/Organization-organization1.json ==
+== fsh-generated/resources/Patient-patient1.json ==
+INFORMATION: Patient/patient1: Patient.extension[1].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS|0.1.0
+== fsh-generated/resources/Patient-zw-patient-example.json ==
+INFORMATION: Patient/zw-patient-example: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS|0.1.0
+== fsh-generated/resources/Practitioner-practitioner1.json ==
+== fsh-generated/resources/Procedure-procedure1.json ==
+== fsh-generated/resources/RelatedPerson-relatedperson1.json ==
+== fsh-generated/resources/StructureDefinition-citizenship.json ==
+== fsh-generated/resources/StructureDefinition-zw-allergy-intolerance.json ==
+INFORMATION: StructureDefinition/zw-allergy-intolerance: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+== fsh-generated/resources/StructureDefinition-zw-condition.json ==
+== fsh-generated/resources/StructureDefinition-zw-encounter.json ==
+== fsh-generated/resources/StructureDefinition-zw-immunization.json ==
+== fsh-generated/resources/StructureDefinition-zw-location.json ==
+== fsh-generated/resources/StructureDefinition-zw-medication-request.json ==
+== fsh-generated/resources/StructureDefinition-zw-observation.json ==
+== fsh-generated/resources/StructureDefinition-zw-organization.json ==
+== fsh-generated/resources/StructureDefinition-zw-patient.json ==
+INFORMATION: StructureDefinition.snapshot.element[9].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0)
+INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0)
+== fsh-generated/resources/StructureDefinition-zw-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-zw-procedure.json ==
+== fsh-generated/resources/StructureDefinition-zw-related-person.json ==
+== fsh-generated/resources/ValueSet-ZimCountry.json ==
+== fsh-generated/resources/ValueSet-ZimDistrict.json ==
+== fsh-generated/resources/ValueSet-ZimFacilityType.json ==
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+== fsh-generated/resources/ValueSet-ZimLanguage.json ==
+INFORMATION: ValueSet/ZimLanguage: ValueSet.compose.include[0].concept[5]: Wrong Display Name 'Tonga' for urn:ietf:bcp:47#toi. Valid display is 'Tonga (Zambia)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/ZimLanguage: ValueSet.compose.include[0].concept[7]: Wrong Display Name 'Chewa (Nyanja)' for urn:ietf:bcp:47#ny. Valid display is one of 3 choices: 'Nyanja' (en), 'Chewa' (en) or 'Chichewa' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/ZimLanguage: ValueSet.compose.include[0].concept[9]: Wrong Display Name 'Sotho (Southern)' for urn:ietf:bcp:47#st. Valid display is 'Southern Sotho' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/ZimLanguage: ValueSet.compose.include[0].concept[12]: Wrong Display Name 'Tsonga (Shangani)' for urn:ietf:bcp:47#ts. Valid display is 'Tsonga' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-ZimMaritalStatus.json ==
+== fsh-generated/resources/ValueSet-ZimProvince.json ==

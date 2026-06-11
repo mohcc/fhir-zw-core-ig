@@ -1,0 +1,37 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "ValueSet-ZimGender.html" : "Gender Value Set"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "version" : "2018-08-12",
+    "status" : "active",
+    "name" : "v3.MaritalStatus",
+    "title" : "v3 Code System MaritalStatus",
+    "description" : " * * * No description supplied * * *  Open Issue:\r\nThe specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.",
+    "oids" : ["2.16.840.1.113883.5.2"],
+    "uses" : {
+    },
+    "ValueSet-ZimMaritalStatus.html" : "MaritalStatus Value Set"
+  },
+  {
+    "url" : "urn:iso:std:iso:3166",
+    "version" : "2018",
+    "status" : "active",
+    "name" : "Country Codes",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-country.html" : "Country ValueSet"
+  }]
+}

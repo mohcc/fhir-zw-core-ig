@@ -1,0 +1,10 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/address-type,4.0.1,active,"2.16.840.1.113883.4.642.4.70",AddressType,AddressType,"The type of an address (physical / postal).","ValueSet/address-type"
+http://hl7.org/fhir/address-use,4.0.1,active,"2.16.840.1.113883.4.642.4.68",AddressUse,AddressUse,"The use of an address.","ValueSet/address-use"
+http://hl7.org/fhir/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.4.2",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ValueSet/administrative-gender,ValueSet/ZimGender"
+http://hl7.org/fhir/identifier-use,4.0.1,active,"2.16.840.1.113883.4.642.4.58",IdentifierUse,IdentifierUse,"Identifies the purpose for this identifier, if known .","ValueSet/identifier-use"
+http://hl7.org/fhir/link-type,4.0.1,active,"2.16.840.1.113883.4.642.4.424",LinkType,LinkType,"The type of link between this patient resource and another patient resource.","ValueSet/link-type"
+http://terminology.hl7.org/CodeSystem/v2-0131,2.9,active,"2.16.840.1.113883.18.58",v2.0131,v2 Contact Role,"FHIR Value set/code system definition for HL7 v2 table 0131 ( Contact Role)","ValueSet/patient-contactrelationship"
+http://terminology.hl7.org/CodeSystem/v2-0203,2.9,active,"2.16.840.1.113883.18.108",v2.0203,v2 Identifier Type,"FHIR Value set/code system definition for HL7 v2 table 0203 ( Identifier Type)","ValueSet/identifier-type"
+http://terminology.hl7.org/CodeSystem/v3-MaritalStatus,2018-08-12,active,"2.16.840.1.113883.5.2",v3.MaritalStatus,v3 Code System MaritalStatus," * * * No description supplied * * *  Open Issue:  The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.","ValueSet/ZimMaritalStatus"
+urn:iso:std:iso:3166,2018,active,,Country Codes,,"This is a place holder for the code system which is fully supported through internal means (not by this code system)","ValueSet/country"

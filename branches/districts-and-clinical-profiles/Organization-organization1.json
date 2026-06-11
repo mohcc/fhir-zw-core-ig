@@ -1,0 +1,35 @@
+{
+  "resourceType" : "Organization",
+  "id" : "organization1",
+  "meta" : {
+    "profile" : ["http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-organization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization organization1</b></p><a name=\"organization1\"> </a><a name=\"hcorganization1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-organization.html\">Zimbabwe Organization</a></p></div><p><b>identifier</b>: <a href=\"NamingSystem-zw-facility-code-ns.html\" title=\"Identifier system for Zimbabwe health facility codes (ZW + province + district + facility number). PROVISIONAL URL pending the official MOHCC system.\">ZimFacilityCode</a>/ZW010E01</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS CENTRAL}\">Central Hospital</span></p><p><b>name</b>: Parirenyatwa Group of Hospitals</p><p><b>telecom</b>: <a href=\"tel:+263242701555\">+263242701555</a></p><p><b>address</b>: Mazowe Street Harare HA ZW </p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://mohcc.gov.zw/identifiers/facility-code",
+    "value" : "ZW010E01"
+  }],
+  "active" : true,
+  "type" : [{
+    "coding" : [{
+      "system" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS",
+      "code" : "CENTRAL",
+      "display" : "Central Hospital"
+    }]
+  }],
+  "name" : "Parirenyatwa Group of Hospitals",
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+263242701555"
+  }],
+  "address" : [{
+    "line" : ["Mazowe Street"],
+    "city" : "Harare",
+    "district" : "010E",
+    "state" : "HA",
+    "country" : "ZW"
+  }]
+}

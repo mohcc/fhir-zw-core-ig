@@ -1,0 +1,17 @@
+ZWCore
+=========================================
+
+/work/fsh-generated/resources/CodeSystem-ZimProvinceCS.json: line 1, col 4094, Info - This property has only a code ('facilityCode') and not a URI, so it has no clearly defined meaning in the terminology ecosystem (BUSINESSRULE)
+/work/fsh-generated/resources/Encounter-encounter1.json: line 10, col 4, Info - Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ActCode|2018-08-12 (BUSINESSRULE)
+/work/fsh-generated/resources/Patient-patient1.json: line 20, col 12, Info - Reference to draft CodeSystem http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS|0.1.0 (BUSINESSRULE)
+/work/fsh-generated/resources/Patient-zw-patient-example.json: line 37, col 12, Info - Reference to draft CodeSystem http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS|0.1.0 (BUSINESSRULE)
+/work/fsh-generated/resources/StructureDefinition-zw-condition.json: line 1, col 36353, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead' (BUSINESSRULE)
+/work/fsh-generated/resources/StructureDefinition-zw-patient.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0) (PROCESSING)
+/work/fsh-generated/resources/StructureDefinition-zw-patient.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0) (PROCESSING)
+/work/fsh-generated/resources/ValueSet-ZimLanguage.json: line 1, col 1971, Info - Wrong Display Name 'Tonga' for urn:ietf:bcp:47#toi. Valid display is 'Tonga (Zambia)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimLanguage.json: line 1, col 2046, Info - Wrong Display Name 'Chewa (Nyanja)' for urn:ietf:bcp:47#ny. Valid display is one of 3 choices: 'Nyanja' (en), 'Chewa' (en) or 'Chichewa' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimLanguage.json: line 1, col 2122, Info - Wrong Display Name 'Sotho (Southern)' for urn:ietf:bcp:47#st. Valid display is 'Southern Sotho' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimLanguage.json: line 1, col 2230, Info - Wrong Display Name 'Tsonga (Shangani)' for urn:ietf:bcp:47#ts. Valid display is 'Tsonga' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+
+err = 0, warn = 0, info = 11
+IG Publisher Version: 2.2.8

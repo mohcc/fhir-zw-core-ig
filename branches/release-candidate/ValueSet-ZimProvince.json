@@ -1,0 +1,76 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ZimProvince",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimProvince</b></p><a name=\"ZimProvince\"> </a><a name=\"hcZimProvince\"> </a><ul><li>Include these codes as defined in <code>urn:iso:std:iso:3166-2</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>ZW-HA</td><td>Harare Province</td></tr><tr><td>ZW-BU</td><td>Bulawayo Province</td></tr><tr><td>ZW-MA</td><td>Manicaland</td></tr><tr><td>ZW-MC</td><td>Masvingo</td></tr><tr><td>ZW-NE</td><td>Matabeleland North</td></tr><tr><td>ZW-SO</td><td>Matabeleland South</td></tr><tr><td>ZW-MI</td><td>Midlands</td></tr><tr><td>ZW-MV</td><td>Mashonaland West</td></tr><tr><td>ZW-ME</td><td>Mashonaland East</td></tr><tr><td>ZW-MN</td><td>Mashonaland Central</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince",
+  "version" : "0.1.0",
+  "name" : "ZimProvinceVS",
+  "title" : "Zimbabwe Province Value Set",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-06-10T19:13:02+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Subset of ISO 3166-2 codes representing Zimbabwe provinces",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166-2",
+      "concept" : [{
+        "code" : "ZW-HA",
+        "display" : "Harare Province"
+      },
+      {
+        "code" : "ZW-BU",
+        "display" : "Bulawayo Province"
+      },
+      {
+        "code" : "ZW-MA",
+        "display" : "Manicaland"
+      },
+      {
+        "code" : "ZW-MC",
+        "display" : "Masvingo"
+      },
+      {
+        "code" : "ZW-NE",
+        "display" : "Matabeleland North"
+      },
+      {
+        "code" : "ZW-SO",
+        "display" : "Matabeleland South"
+      },
+      {
+        "code" : "ZW-MI",
+        "display" : "Midlands"
+      },
+      {
+        "code" : "ZW-MV",
+        "display" : "Mashonaland West"
+      },
+      {
+        "code" : "ZW-ME",
+        "display" : "Mashonaland East"
+      },
+      {
+        "code" : "ZW-MN",
+        "display" : "Mashonaland Central"
+      }]
+    }]
+  }
+}

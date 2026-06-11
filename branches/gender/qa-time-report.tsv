@@ -1,0 +1,14 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json	2027	-	0	0	0	0	0	0	47	315	0	0	0	0	0	0	0	0	0	0	66	52	0	0	0	2	0	2
+fsh-generated/resources/StructureDefinition-citizenship.json	2750	24	0	61	2	0	2	0	1	893	0	0	0	0	0	0	0	1	0	0	126	796	0	0	0	5	0	0
+fsh-generated/resources/StructureDefinition-zw-patient.json	1500	22	0	90	1	0	0	0	1	102	0	0	0	0	0	0	0	1	0	0	129	458	0	0	0	8	0	2
+fsh-generated/resources/ValueSet-ZimGender.json	645	21	0	0	0	0	0	0	1	187	0	0	0	0	0	0	0	0	0	0	9	461	0	1	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	139	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1236	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/data/features.yaml	84	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/downloads.md	963	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	752	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	2852	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

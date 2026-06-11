@@ -1,0 +1,65 @@
+{
+  "codeSystems" : [{
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimCountry",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimCountryVS",
+    "title" : "Zimbabwe Country (Nationality) Value Set",
+    "description" : "Countries used for citizenship/nationality in Zimbabwe (ISO 3166-1 alpha-2 aligned).",
+    "systems" : ["http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimDistrict",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimDistrictVS",
+    "title" : "Zimbabwe District Value Set",
+    "description" : "Districts (and metropolitan sub-units) of Zimbabwe, coded by their 4-character district code (province + district).",
+    "systems" : ["http://mohcc.gov.zw/fhir/core/CodeSystem/ZimDistrictCS"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimFacilityType",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimFacilityTypeVS",
+    "title" : "Zimbabwe Health Facility Type Value Set",
+    "description" : "Tiers of health facility in the Zimbabwe public health system.",
+    "systems" : ["http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimGenderVS",
+    "title" : "Gender Value Set",
+    "description" : "Administrative Gender",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimLanguageVS",
+    "title" : "Zimbabwe Language Value Set",
+    "description" : "Official languages of Zimbabwe (per the 2013 Constitution, Section 6), expressed as BCP-47 codes.",
+    "systems" : ["urn:ietf:bcp:47"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimMaritalStatusVS",
+    "title" : "MaritalStatus Value Set",
+    "description" : "Administrative Marital Status",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ZimProvinceVS",
+    "title" : "Zimbabwe Province Value Set",
+    "description" : "The ten provinces of Zimbabwe.",
+    "systems" : ["http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"]
+  }]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="encounter1"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-encounter"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Encounter encounter1</b></p><a name="encounter1"> </a><a name="hcencounter1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-encounter.html">Zimbabwe Encounter</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://hl7.org/fhir/R4/v3/ActCode/cs.html#v3-ActCode-AMB">v3 Code System ActCode: AMB</a> (ambulatory)</p><p><b>subject</b>: <a href="Patient-zw-patient-example.html">Tendai Moyo (official) Female, DoB: 1985-06-15 ( http://mohcc.gov.zw/identifiers/nationalID#ZimNationalIdentity#01-234567B89)</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner-practitioner1.html">Practitioner Rudo Ncube (official)</a></td></tr></table><p><b>period</b>: 2026-05-01 09:00:00+0200 --&gt; 2026-05-01 09:30:00+0200</p><h3>Locations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Location</b></td></tr><tr><td style="display: none">*</td><td><a href="Location-location1.html">Location Parirenyatwa Outpatients Department</a></td></tr></table><p><b>serviceProvider</b>: <a href="Organization-organization1.html">Organization Parirenyatwa Group of Hospitals</a></p></div>
+  </text>
+  <status value="finished"/>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="AMB"/>
+    <display value="ambulatory"/>
+  </class>
+  <subject>
+    <reference value="Patient/zw-patient-example"/>
+  </subject>
+  <participant>
+    <individual>
+      <reference value="Practitioner/practitioner1"/>
+    </individual>
+  </participant>
+  <period>
+    <start value="2026-05-01T09:00:00+02:00"/>
+    <end value="2026-05-01T09:30:00+02:00"/>
+  </period>
+  <location>
+    <location>
+      <reference value="Location/location1"/>
+    </location>
+  </location>
+  <serviceProvider>
+    <reference value="Organization/organization1"/>
+  </serviceProvider>
+</Encounter>

@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://terminology.hl7.org/CodeSystem/v3-MaritalStatus,3.0.0,active,"2.16.840.1.113883.5.2",MaritalStatus,MaritalStatus,"\* \* \* No description supplied \* \* \*    *Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.    *Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.","ValueSet/ZimMaritalStatus"

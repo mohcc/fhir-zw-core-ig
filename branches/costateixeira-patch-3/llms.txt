@@ -1,0 +1,66 @@
+# zw.fhir.ig.core#0.1.0: Zimbabwe Core IG
+
+## Pages
+
+* [Home](index.md)
+* [About](about.md)
+* [Downloads](downloads.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Zimbabwe Country (Nationality) Code System](CodeSystem-ZimCountryCS.md)
+* [Zimbabwe Health Facility Type Code System](CodeSystem-ZimFacilityTypeCS.md)
+* [Zimbabwe Province Code System](CodeSystem-ZimProvinceCS.md)
+
+### ValueSets
+
+* [Zimbabwe Country (Nationality) Value Set](ValueSet-ZimCountry.md)
+* [Zimbabwe Health Facility Type Value Set](ValueSet-ZimFacilityType.md)
+* [Gender Value Set](ValueSet-ZimGender.md)
+* [Zimbabwe Language Value Set](ValueSet-ZimLanguage.md)
+* [MaritalStatus Value Set](ValueSet-ZimMaritalStatus.md)
+* [Zimbabwe Province Value Set](ValueSet-ZimProvince.md)
+
+### Resource Profiles
+
+* [Zimbabwe Condition](StructureDefinition-zw-condition.md)
+* [Zimbabwe Encounter](StructureDefinition-zw-encounter.md)
+* [Zimbabwe Immunization](StructureDefinition-zw-immunization.md)
+* [Zimbabwe Location](StructureDefinition-zw-location.md)
+* [Zimbabwe Observation](StructureDefinition-zw-observation.md)
+* [Zimbabwe Organization](StructureDefinition-zw-organization.md)
+* [Zimbabwe Patient](StructureDefinition-zw-patient.md)
+* [Zimbabwe Practitioner](StructureDefinition-zw-practitioner.md)
+* [Zimbabwe Related Person](StructureDefinition-zw-related-person.md)
+
+### Extensions
+
+* [Patient Citizenship](StructureDefinition-citizenship.md)
+
+### ImplementationGuides
+
+* [Zimbabwe Core IG](index.md)
+
+### NamingSystems
+
+* [ZimFacilityCode](NamingSystem-zw-facility-code-ns.md)
+* [ZimNationalIdentity](NamingSystem-zw-national-identity-ns.md)
+* [ZimPassportNumber](NamingSystem-zw-passport-ns.md)
+* [ZimPatientHealthId](NamingSystem-zw-phid-ns.md)
+* [ZimPractitionerRegistration](NamingSystem-zw-practitioner-registration-ns.md)
+
+### Examples
+
+* [condition1 (Condition)](Condition-condition1.md)
+* [encounter1 (Encounter)](Encounter-encounter1.md)
+* [immunization1 (Immunization)](Immunization-immunization1.md)
+* [Parirenyatwa Outpatients Department (Location)](Location-location1.md)
+* [observation1 (Observation)](Observation-observation1.md)
+* [Parirenyatwa Group of Hospitals (Organization)](Organization-organization1.md)
+* [patient1 (Patient)](Patient-patient1.md)
+* [zw-patient-example (Patient)](Patient-zw-patient-example.md)
+* [practitioner1 (Practitioner)](Practitioner-practitioner1.md)
+* [relatedperson1 (RelatedPerson)](RelatedPerson-relatedperson1.md)

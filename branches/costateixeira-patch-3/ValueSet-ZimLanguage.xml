@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ZimLanguage"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ZimLanguage</b></p><a name="ZimLanguage"> </a><a name="hcZimLanguage"> </a><ul><li>Include these codes as defined in <code>urn:ietf:bcp:47</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>en</td><td>English</td></tr><tr><td>sn</td><td>Shona</td></tr><tr><td>nd</td><td>Ndebele (North)</td></tr><tr><td>ndc</td><td>Ndau</td></tr><tr><td>kck</td><td>Kalanga</td></tr><tr><td>toi</td><td>Tonga</td></tr><tr><td>nmq</td><td>Nambya</td></tr><tr><td>ny</td><td>Chewa (Nyanja)</td></tr><tr><td>tn</td><td>Tswana</td></tr><tr><td>st</td><td>Sotho (Southern)</td></tr><tr><td>ve</td><td>Venda</td></tr><tr><td>xh</td><td>Xhosa</td></tr><tr><td>ts</td><td>Tsonga (Shangani)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage"/>
+  <version value="0.1.0"/>
+  <name value="ZimLanguageVS"/>
+  <title value="Zimbabwe Language Value Set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:03:46+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Official languages of Zimbabwe (per the 2013 Constitution, Section 6), expressed as BCP-47 codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:ietf:bcp:47"/>
+      <concept>
+        <code value="en"/>
+        <display value="English"/>
+      </concept>
+      <concept>
+        <code value="sn"/>
+        <display value="Shona"/>
+      </concept>
+      <concept>
+        <code value="nd"/>
+        <display value="Ndebele (North)"/>
+      </concept>
+      <concept>
+        <code value="ndc"/>
+        <display value="Ndau"/>
+      </concept>
+      <concept>
+        <code value="kck"/>
+        <display value="Kalanga"/>
+      </concept>
+      <concept>
+        <code value="toi"/>
+        <display value="Tonga"/>
+      </concept>
+      <concept>
+        <code value="nmq"/>
+        <display value="Nambya"/>
+      </concept>
+      <concept>
+        <code value="ny"/>
+        <display value="Chewa (Nyanja)"/>
+      </concept>
+      <concept>
+        <code value="tn"/>
+        <display value="Tswana"/>
+      </concept>
+      <concept>
+        <code value="st"/>
+        <display value="Sotho (Southern)"/>
+      </concept>
+      <concept>
+        <code value="ve"/>
+        <display value="Venda"/>
+      </concept>
+      <concept>
+        <code value="xh"/>
+        <display value="Xhosa"/>
+      </concept>
+      <concept>
+        <code value="ts"/>
+        <display value="Tsonga (Shangani)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

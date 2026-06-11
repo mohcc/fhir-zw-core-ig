@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/RelatedPerson/relatedperson1> a fhir:RelatedPerson ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "relatedperson1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-related-person"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-related-person>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson relatedperson1</b></p><a name=\"relatedperson1\"> </a><a name=\"hcrelatedperson1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-related-person.html\">Zimbabwe Related Person</a></p></div><p><b>patient</b>: <a href=\"Patient-zw-patient-example.html\">Tendai Moyo (official) Female, DoB: 1985-06-15 ( http://mohcc.gov.zw/identifiers/nationalID#ZimNationalIdentity#01-234567B89)</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0131 N}\">Next-of-Kin</span></p><p><b>name</b>: Farai Moyo (Official)</p><p><b>telecom</b>: <a href=\"tel:+263772987654\">+263772987654</a></p><p><b>gender</b>: Male</p><p><b>address</b>: Harare HA ZW (home)</p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:patient [
+     fhir:l <http://mohcc.gov.zw/fhir/core/Patient/zw-patient-example> ;
+     fhir:reference [ fhir:v "Patient/zw-patient-example" ]
+  ] ; # 
+  fhir:relationship ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
+       ] ;
+       fhir:code [ fhir:v "N" ] ;
+       fhir:display [ fhir:v "Next-of-Kin" ]
+     ] )
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Moyo" ] ;
+     fhir:given ( [ fhir:v "Farai" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+263772987654" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:address ( [
+     fhir:use [ fhir:v "home" ] ;
+     fhir:city [ fhir:v "Harare" ] ;
+     fhir:district [ fhir:v "010A" ] ;
+     fhir:state [ fhir:v "HA" ] ;
+     fhir:country [ fhir:v "ZW" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

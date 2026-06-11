@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ZimDistrictCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ZimDistrictCS</b></p><a name="ZimDistrictCS"> </a><a name="hcZimDistrictCS"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>provinceCode</td><td>provinceCode</td><td>string</td><td>The 2-digit code (01-10) of the province this district belongs to (see ZimProvinceCS).</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimDistrictCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>provinceCode</b></td></tr><tr><td style="white-space:nowrap">010A<a name="ZimDistrictCS-010A"> </a></td><td>Harare Urban</td><td>01</td></tr><tr><td style="white-space:nowrap">010B<a name="ZimDistrictCS-010B"> </a></td><td>Chitungwiza Urban</td><td>01</td></tr><tr><td style="white-space:nowrap">010C<a name="ZimDistrictCS-010C"> </a></td><td>Chitungwiza Hospital</td><td>01</td></tr><tr><td style="white-space:nowrap">010D<a name="ZimDistrictCS-010D"> </a></td><td>Harare Central Hospital</td><td>01</td></tr><tr><td style="white-space:nowrap">010E<a name="ZimDistrictCS-010E"> </a></td><td>Parirenyatwa</td><td>01</td></tr><tr><td style="white-space:nowrap">010F<a name="ZimDistrictCS-010F"> </a></td><td>Harare City Clinics</td><td>01</td></tr><tr><td style="white-space:nowrap">0201<a name="ZimDistrictCS-0201"> </a></td><td>Buhera</td><td>02</td></tr><tr><td style="white-space:nowrap">0202<a name="ZimDistrictCS-0202"> </a></td><td>Chimanimani</td><td>02</td></tr><tr><td style="white-space:nowrap">0203<a name="ZimDistrictCS-0203"> </a></td><td>Chipinge</td><td>02</td></tr><tr><td style="white-space:nowrap">0204<a name="ZimDistrictCS-0204"> </a></td><td>Makoni</td><td>02</td></tr><tr><td style="white-space:nowrap">0205<a name="ZimDistrictCS-0205"> </a></td><td>Mutare</td><td>02</td></tr><tr><td style="white-space:nowrap">0206<a name="ZimDistrictCS-0206"> </a></td><td>Mutasa</td><td>02</td></tr><tr><td style="white-space:nowrap">0207<a name="ZimDistrictCS-0207"> </a></td><td>Nyanga</td><td>02</td></tr><tr><td style="white-space:nowrap">0208<a name="ZimDistrictCS-0208"> </a></td><td>Mutare City</td><td>02</td></tr><tr><td style="white-space:nowrap">0301<a name="ZimDistrictCS-0301"> </a></td><td>Bindura</td><td>03</td></tr><tr><td style="white-space:nowrap">0302<a name="ZimDistrictCS-0302"> </a></td><td>Centenary</td><td>03</td></tr><tr><td style="white-space:nowrap">0303<a name="ZimDistrictCS-0303"> </a></td><td>Guruve</td><td>03</td></tr><tr><td style="white-space:nowrap">0304<a name="ZimDistrictCS-0304"> </a></td><td>Mazowe</td><td>03</td></tr><tr><td style="white-space:nowrap">0305<a name="ZimDistrictCS-0305"> </a></td><td>Mt. Darwin</td><td>03</td></tr><tr><td style="white-space:nowrap">0306<a name="ZimDistrictCS-0306"> </a></td><td>Rushinga</td><td>03</td></tr><tr><td style="white-space:nowrap">0307<a name="ZimDistrictCS-0307"> </a></td><td>Shamva</td><td>03</td></tr><tr><td style="white-space:nowrap">0308<a name="ZimDistrictCS-0308"> </a></td><td>Mbire</td><td>03</td></tr><tr><td style="white-space:nowrap">0401<a name="ZimDistrictCS-0401"> </a></td><td>Chikomba</td><td>04</td></tr><tr><td style="white-space:nowrap">0402<a name="ZimDistrictCS-0402"> </a></td><td>Goromonzi</td><td>04</td></tr><tr><td style="white-space:nowrap">0403<a name="ZimDistrictCS-0403"> </a></td><td>U.M.P</td><td>04</td></tr><tr><td style="white-space:nowrap">0404<a name="ZimDistrictCS-0404"> </a></td><td>Hwedza</td><td>04</td></tr><tr><td style="white-space:nowrap">0405<a name="ZimDistrictCS-0405"> </a></td><td>Marondera</td><td>04</td></tr><tr><td style="white-space:nowrap">0406<a name="ZimDistrictCS-0406"> </a></td><td>Mudzi</td><td>04</td></tr><tr><td style="white-space:nowrap">0407<a name="ZimDistrictCS-0407"> </a></td><td>Murewa</td><td>04</td></tr><tr><td style="white-space:nowrap">0408<a name="ZimDistrictCS-0408"> </a></td><td>Mutoko</td><td>04</td></tr><tr><td style="white-space:nowrap">0409<a name="ZimDistrictCS-0409"> </a></td><td>Seke</td><td>04</td></tr><tr><td style="white-space:nowrap">0501<a name="ZimDistrictCS-0501"> </a></td><td>Chegutu</td><td>05</td></tr><tr><td style="white-space:nowrap">0502<a name="ZimDistrictCS-0502"> </a></td><td>Hurungwe</td><td>05</td></tr><tr><td style="white-space:nowrap">0503<a name="ZimDistrictCS-0503"> </a></td><td>Kadoma</td><td>05</td></tr><tr><td style="white-space:nowrap">0504<a name="ZimDistrictCS-0504"> </a></td><td>Kariba</td><td>05</td></tr><tr><td style="white-space:nowrap">0505<a name="ZimDistrictCS-0505"> </a></td><td>Makonde</td><td>05</td></tr><tr><td style="white-space:nowrap">0506<a name="ZimDistrictCS-0506"> </a></td><td>Zvimba</td><td>05</td></tr><tr><td style="white-space:nowrap">0601<a name="ZimDistrictCS-0601"> </a></td><td>Binga</td><td>06</td></tr><tr><td style="white-space:nowrap">0602<a name="ZimDistrictCS-0602"> </a></td><td>Bubi</td><td>06</td></tr><tr><td style="white-space:nowrap">0603<a name="ZimDistrictCS-0603"> </a></td><td>Hwange</td><td>06</td></tr><tr><td style="white-space:nowrap">0604<a name="ZimDistrictCS-0604"> </a></td><td>Lupane</td><td>06</td></tr><tr><td style="white-space:nowrap">0605<a name="ZimDistrictCS-0605"> </a></td><td>Nkayi</td><td>06</td></tr><tr><td style="white-space:nowrap">0606<a name="ZimDistrictCS-0606"> </a></td><td>Tsholotsho</td><td>06</td></tr><tr><td style="white-space:nowrap">0607<a name="ZimDistrictCS-0607"> </a></td><td>Umguza</td><td>06</td></tr><tr><td style="white-space:nowrap">0701<a name="ZimDistrictCS-0701"> </a></td><td>Beitbridge</td><td>07</td></tr><tr><td style="white-space:nowrap">0702<a name="ZimDistrictCS-0702"> </a></td><td>Bulilima</td><td>07</td></tr><tr><td style="white-space:nowrap">0703<a name="ZimDistrictCS-0703"> </a></td><td>Gwanda</td><td>07</td></tr><tr><td style="white-space:nowrap">0704<a name="ZimDistrictCS-0704"> </a></td><td>Insiza</td><td>07</td></tr><tr><td style="white-space:nowrap">0705<a name="ZimDistrictCS-0705"> </a></td><td>Matobo</td><td>07</td></tr><tr><td style="white-space:nowrap">0706<a name="ZimDistrictCS-0706"> </a></td><td>Umzingwane</td><td>07</td></tr><tr><td style="white-space:nowrap">0707<a name="ZimDistrictCS-0707"> </a></td><td>Mangwe</td><td>07</td></tr><tr><td style="white-space:nowrap">0801<a name="ZimDistrictCS-0801"> </a></td><td>Chirumhanzu</td><td>08</td></tr><tr><td style="white-space:nowrap">0802<a name="ZimDistrictCS-0802"> </a></td><td>Gokwe North</td><td>08</td></tr><tr><td style="white-space:nowrap">0803<a name="ZimDistrictCS-0803"> </a></td><td>Gweru</td><td>08</td></tr><tr><td style="white-space:nowrap">0804<a name="ZimDistrictCS-0804"> </a></td><td>Kwekwe</td><td>08</td></tr><tr><td style="white-space:nowrap">0805<a name="ZimDistrictCS-0805"> </a></td><td>Mberengwa</td><td>08</td></tr><tr><td style="white-space:nowrap">0806<a name="ZimDistrictCS-0806"> </a></td><td>Shurugwi</td><td>08</td></tr><tr><td style="white-space:nowrap">0807<a name="ZimDistrictCS-0807"> </a></td><td>Zvishavane</td><td>08</td></tr><tr><td style="white-space:nowrap">0808<a name="ZimDistrictCS-0808"> </a></td><td>Gokwe South</td><td>08</td></tr><tr><td style="white-space:nowrap">0901<a name="ZimDistrictCS-0901"> </a></td><td>Bikita</td><td>09</td></tr><tr><td style="white-space:nowrap">0902<a name="ZimDistrictCS-0902"> </a></td><td>Chiredzi</td><td>09</td></tr><tr><td style="white-space:nowrap">0903<a name="ZimDistrictCS-0903"> </a></td><td>Chivi</td><td>09</td></tr><tr><td style="white-space:nowrap">0904<a name="ZimDistrictCS-0904"> </a></td><td>Gutu</td><td>09</td></tr><tr><td style="white-space:nowrap">0905<a name="ZimDistrictCS-0905"> </a></td><td>Masvingo</td><td>09</td></tr><tr><td style="white-space:nowrap">0906<a name="ZimDistrictCS-0906"> </a></td><td>Mwenezi</td><td>09</td></tr><tr><td style="white-space:nowrap">0907<a name="ZimDistrictCS-0907"> </a></td><td>Zaka</td><td>09</td></tr><tr><td style="white-space:nowrap">1001<a name="ZimDistrictCS-1001"> </a></td><td>Bulawayo (Rural)</td><td>10</td></tr><tr><td style="white-space:nowrap">100A<a name="ZimDistrictCS-100A"> </a></td><td>Bulawayo (Urban)</td><td>10</td></tr><tr><td style="white-space:nowrap">100B<a name="ZimDistrictCS-100B"> </a></td><td>Ingutsheni</td><td>10</td></tr><tr><td style="white-space:nowrap">100C<a name="ZimDistrictCS-100C"> </a></td><td>U.B.H.</td><td>10</td></tr><tr><td style="white-space:nowrap">100D<a name="ZimDistrictCS-100D"> </a></td><td>Mpilo Hospital</td><td>10</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimDistrictCS"/>
+  <version value="0.1.0"/>
+  <name value="ZimDistrictCS"/>
+  <title value="Zimbabwe District Code System"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T13:59:21+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Districts (and metropolitan sub-units) of Zimbabwe, from the MOHCC district table. The concept code is the 4-character district code = 2-digit province code (01-10, per ZimProvinceCS) + 2-character zero-padded district code. The 'provinceCode' property gives the parent province's 2-digit code. NOTE: Harare city units were re-parented from the source ProvinceID=1 (Manicaland) to Harare (01); a junk 'Harare' row (ProvinceID 7) and other non-standard rows were excluded."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="71"/>
+  <property>
+    <code value="provinceCode"/>
+    <description value="The 2-digit code (01-10) of the province this district belongs to (see ZimProvinceCS)."/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="010A"/>
+    <display value="Harare Urban"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="01"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="010B"/>
+    <display value="Chitungwiza Urban"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="01"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="010C"/>
+    <display value="Chitungwiza Hospital"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="01"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="010D"/>
+    <display value="Harare Central Hospital"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="01"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="010E"/>
+    <display value="Parirenyatwa"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="01"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="010F"/>
+    <display value="Harare City Clinics"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="01"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0201"/>
+    <display value="Buhera"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0202"/>
+    <display value="Chimanimani"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0203"/>
+    <display value="Chipinge"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0204"/>
+    <display value="Makoni"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0205"/>
+    <display value="Mutare"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0206"/>
+    <display value="Mutasa"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0207"/>
+    <display value="Nyanga"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0208"/>
+    <display value="Mutare City"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0301"/>
+    <display value="Bindura"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0302"/>
+    <display value="Centenary"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0303"/>
+    <display value="Guruve"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0304"/>
+    <display value="Mazowe"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0305"/>
+    <display value="Mt. Darwin"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0306"/>
+    <display value="Rushinga"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0307"/>
+    <display value="Shamva"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0308"/>
+    <display value="Mbire"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0401"/>
+    <display value="Chikomba"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0402"/>
+    <display value="Goromonzi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0403"/>
+    <display value="U.M.P"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0404"/>
+    <display value="Hwedza"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0405"/>
+    <display value="Marondera"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0406"/>
+    <display value="Mudzi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0407"/>
+    <display value="Murewa"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0408"/>
+    <display value="Mutoko"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0409"/>
+    <display value="Seke"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0501"/>
+    <display value="Chegutu"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="05"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0502"/>
+    <display value="Hurungwe"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="05"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0503"/>
+    <display value="Kadoma"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="05"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0504"/>
+    <display value="Kariba"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="05"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0505"/>
+    <display value="Makonde"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="05"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0506"/>
+    <display value="Zvimba"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="05"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0601"/>
+    <display value="Binga"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0602"/>
+    <display value="Bubi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0603"/>
+    <display value="Hwange"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0604"/>
+    <display value="Lupane"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0605"/>
+    <display value="Nkayi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0606"/>
+    <display value="Tsholotsho"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0607"/>
+    <display value="Umguza"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0701"/>
+    <display value="Beitbridge"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0702"/>
+    <display value="Bulilima"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0703"/>
+    <display value="Gwanda"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0704"/>
+    <display value="Insiza"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0705"/>
+    <display value="Matobo"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0706"/>
+    <display value="Umzingwane"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0707"/>
+    <display value="Mangwe"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0801"/>
+    <display value="Chirumhanzu"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0802"/>
+    <display value="Gokwe North"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0803"/>
+    <display value="Gweru"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0804"/>
+    <display value="Kwekwe"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0805"/>
+    <display value="Mberengwa"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0806"/>
+    <display value="Shurugwi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0807"/>
+    <display value="Zvishavane"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0808"/>
+    <display value="Gokwe South"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0901"/>
+    <display value="Bikita"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0902"/>
+    <display value="Chiredzi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0903"/>
+    <display value="Chivi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0904"/>
+    <display value="Gutu"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0905"/>
+    <display value="Masvingo"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0906"/>
+    <display value="Mwenezi"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="0907"/>
+    <display value="Zaka"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1001"/>
+    <display value="Bulawayo (Rural)"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="10"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="100A"/>
+    <display value="Bulawayo (Urban)"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="10"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="100B"/>
+    <display value="Ingutsheni"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="10"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="100C"/>
+    <display value="U.B.H."/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="10"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="100D"/>
+    <display value="Mpilo Hospital"/>
+    <property>
+      <code value="provinceCode"/>
+      <valueString value="10"/>
+    </property>
+  </concept>
+</CodeSystem>

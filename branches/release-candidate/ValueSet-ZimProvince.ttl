@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ZimProvince"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ZimProvince</b></p><a name=\"ZimProvince\"> </a><a name=\"hcZimProvince\"> </a><ul><li>Include these codes as defined in <code>urn:iso:std:iso:3166-2</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>ZW-HA</td><td>Harare Province</td></tr><tr><td>ZW-BU</td><td>Bulawayo Province</td></tr><tr><td>ZW-MA</td><td>Manicaland</td></tr><tr><td>ZW-MC</td><td>Masvingo</td></tr><tr><td>ZW-NE</td><td>Matabeleland North</td></tr><tr><td>ZW-SO</td><td>Matabeleland South</td></tr><tr><td>ZW-MI</td><td>Midlands</td></tr><tr><td>ZW-MV</td><td>Mashonaland West</td></tr><tr><td>ZW-ME</td><td>Mashonaland East</td></tr><tr><td>ZW-MN</td><td>Mashonaland Central</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ZimProvinceVS"] ; # 
+  fhir:title [ fhir:v "Zimbabwe Province Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-10T19:13:02+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Subset of ISO 3166-2 codes representing Zimbabwe provinces"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166-2"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166-2>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ZW-HA" ] ;
+         fhir:display [ fhir:v "Harare Province" ]
+       ] [
+         fhir:code [ fhir:v "ZW-BU" ] ;
+         fhir:display [ fhir:v "Bulawayo Province" ]
+       ] [
+         fhir:code [ fhir:v "ZW-MA" ] ;
+         fhir:display [ fhir:v "Manicaland" ]
+       ] [
+         fhir:code [ fhir:v "ZW-MC" ] ;
+         fhir:display [ fhir:v "Masvingo" ]
+       ] [
+         fhir:code [ fhir:v "ZW-NE" ] ;
+         fhir:display [ fhir:v "Matabeleland North" ]
+       ] [
+         fhir:code [ fhir:v "ZW-SO" ] ;
+         fhir:display [ fhir:v "Matabeleland South" ]
+       ] [
+         fhir:code [ fhir:v "ZW-MI" ] ;
+         fhir:display [ fhir:v "Midlands" ]
+       ] [
+         fhir:code [ fhir:v "ZW-MV" ] ;
+         fhir:display [ fhir:v "Mashonaland West" ]
+       ] [
+         fhir:code [ fhir:v "ZW-ME" ] ;
+         fhir:display [ fhir:v "Mashonaland East" ]
+       ] [
+         fhir:code [ fhir:v "ZW-MN" ] ;
+         fhir:display [ fhir:v "Mashonaland Central" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

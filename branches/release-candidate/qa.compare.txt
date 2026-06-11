@@ -1,0 +1,45 @@
+ZWCore : Validation Results
+=========================================
+
+err = 2, warn = 9, info = 9
+$--
+Generated $--. FHIR version $-- for zw.fhir.ig.core#$-- (canonical = http://mohcc.gov.zw/fhir/core)
+ Build Errors : 0 / 1 / 0
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core : 0 / 0 / 1
+ /work/fsh-generated/resources/Patient-patient1 : 0 / 3 / 2
+ /work/fsh-generated/resources/Patient-zw-patient-example : 2 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-citizenship : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-patient : 0 / 0 / 6
+ /work/fsh-generated/resources/ValueSet-ZimGender : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimMaritalStatus : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ZimProvince : 0 / 2 / 2
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/patient1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.core.json ==
+== fsh-generated/resources/Patient-patient1.json ==
+WARNING: Patient/patient1: Patient.extension[1].extension[0].value.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: Patient/patient1: Patient.extension[1].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Country ValueSet' (http://hl7.org/fhir/ValueSet/country|5.0.0), and a coding is recommended to come from this value set (codes = null#ZWE)
+WARNING: Patient/patient1: Patient.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/identifiers/nationalID'
+WARNING: Patient/patient1: Patient.identifier[1].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/identifiers/passport'
+== fsh-generated/resources/Patient-zw-patient-example.json ==
+INFORMATION: Patient/zw-patient-example: Patient.identifier[0]: This element does not match any known slice defined in the profile http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-patient|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Patient/zw-patient-example: Patient.identifier[1]: This element does not match any known slice defined in the profile http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-patient|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Patient/zw-patient-example: Patient.address[0].state: The System URI could not be determined for the code 'ZW-HA' in the ValueSet 'http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince|0.1.0'
+ERROR: Patient/zw-patient-example: Patient.address[0].state: The value provided ('ZW-HA') was not found in the value set 'Zimbabwe Province Value Set' (http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'ZW-HA' in the ValueSet 'http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince|0.1.0'; The provided code '#ZW-HA' was not found in the value set 'http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince|0.1.0')
+== fsh-generated/resources/StructureDefinition-citizenship.json ==
+WARNING: StructureDefinition/citizenship: StructureDefinition.differential.element[5].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/country' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/citizenship: StructureDefinition.snapshot.element[8].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/country' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/core/StructureDefinition/citizenship'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-zw-patient.json ==
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-citizenship to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0)
+INFORMATION: StructureDefinition.snapshot.element[9].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0)
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-citizenship to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0)
+INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.3.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0)
+INFORMATION: StructureDefinition/zw-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+== fsh-generated/resources/ValueSet-ZimMaritalStatus.json ==
+== fsh-generated/resources/ValueSet-ZimProvince.json ==
+WARNING: ValueSet/ZimProvince: ValueSet.compose.include[0].system: No definition could be found for URL value 'urn:iso:std:iso:3166-2'
+INFORMATION: ValueSet/ZimProvince: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'urn:iso:std:iso:3166-2' is not known, and no terminology service supports it
+WARNING: ValueSet.where(id = 'ZimProvince'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'urn:iso:std:iso:3166-2' could not be found, so the value set cannot be expanded

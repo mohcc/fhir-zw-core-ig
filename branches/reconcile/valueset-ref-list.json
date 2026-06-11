@@ -1,0 +1,28 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ZimGenderVS",
+      "title" : "Gender Value Set",
+      "description" : "Administrative Gender",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "uses" : {
+      },
+      "StructureDefinition-ZimPatient.html" : "Zimbabwe Patient"
+    },
+    {
+      "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ZimMaritalStatusVS",
+      "title" : "MaritalStatus Value Set",
+      "description" : "Administrative Marital Status",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"],
+      "uses" : {
+      },
+      "StructureDefinition-ZimPatient.html" : "Zimbabwe Patient"
+    }
+  ]
+}

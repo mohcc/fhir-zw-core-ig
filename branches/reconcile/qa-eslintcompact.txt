@@ -1,0 +1,19 @@
+ZWCore
+=========================================
+
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Patient/patient1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+/work/fsh-generated/resources/Patient-patient1.json: line 20, col 12, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/work/fsh-generated/resources/Patient-patient1.json: line 20, col 12, Warning - ValueSet 'http://hl7.org/fhir/ValueSet/country' not found (CODEINVALID)
+/work/fsh-generated/resources/Patient-patient1.json: line 34, col 61, Warning - No definition could be found for URL value 'http://mohcc.gov.zw/identifiers/nationalID' (INVALID)
+/work/fsh-generated/resources/Patient-patient1.json: line 38, col 64, Warning - No definition could be found for URL value 'http://mohcc.gov.zw/fhir/identifiers/passport' (INVALID)
+/work/fsh-generated/resources/StructureDefinition-ZimPatient.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-citizenship to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/work/fsh-generated/resources/StructureDefinition-ZimPatient.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/work/fsh-generated/resources/StructureDefinition-ZimPatient.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-citizenship to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/work/fsh-generated/resources/StructureDefinition-ZimPatient.json: line 0, col 0, Info - Pinned the version of http://hl7.org/fhir/StructureDefinition/patient-birthPlace to 5.2.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0) (PROCESSING)
+/work/fsh-generated/resources/StructureDefinition-ZimPatient.json: line 1, col 51219, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+/work/fsh-generated/resources/ValueSet-ZimMaritalStatus.json: line 1, col 2837, Info - The display 'Single' is not valid in the Code system 'Single'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimMaritalStatus.json: line 1, col 2872, Info - The display 'Separated' is not valid in the Code system 'Separated'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimMaritalStatus.json: line 1, col 2910, Info - The display 'Cohabitation' is not valid in the Code system 'Cohabitation'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+
+err = 0, warn = 5, info = 8
+IG Publisher Version: 2.0.26

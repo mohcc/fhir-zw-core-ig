@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ZimProvinceCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ZimProvinceCS</b></p><a name="ZimProvinceCS"> </a><a name="hcZimProvinceCS"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>facilityCode</td><td>facilityCode</td><td>string</td><td>Two-digit province number used as the province segment of a national facility code (per the MOHCC province table).</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>facilityCode</b></td></tr><tr><td style="white-space:nowrap">HA<a name="ZimProvinceCS-HA"> </a></td><td>Harare</td><td>01</td></tr><tr><td style="white-space:nowrap">MA<a name="ZimProvinceCS-MA"> </a></td><td>Manicaland</td><td>02</td></tr><tr><td style="white-space:nowrap">MC<a name="ZimProvinceCS-MC"> </a></td><td>Mashonaland Central</td><td>03</td></tr><tr><td style="white-space:nowrap">ME<a name="ZimProvinceCS-ME"> </a></td><td>Mashonaland East</td><td>04</td></tr><tr><td style="white-space:nowrap">MW<a name="ZimProvinceCS-MW"> </a></td><td>Mashonaland West</td><td>05</td></tr><tr><td style="white-space:nowrap">MN<a name="ZimProvinceCS-MN"> </a></td><td>Matabeleland North</td><td>06</td></tr><tr><td style="white-space:nowrap">MS<a name="ZimProvinceCS-MS"> </a></td><td>Matabeleland South</td><td>07</td></tr><tr><td style="white-space:nowrap">MI<a name="ZimProvinceCS-MI"> </a></td><td>Midlands</td><td>08</td></tr><tr><td style="white-space:nowrap">MV<a name="ZimProvinceCS-MV"> </a></td><td>Masvingo</td><td>09</td></tr><tr><td style="white-space:nowrap">BU<a name="ZimProvinceCS-BU"> </a></td><td>Bulawayo</td><td>10</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS"/>
+  <version value="0.1.0"/>
+  <name value="ZimProvinceCS"/>
+  <title value="Zimbabwe Province Code System"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:30:02+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="The ten provinces of Zimbabwe. The 'facilityCode' property gives the two-digit province number (01-10) used as the province segment of a national facility code. Concept codes are also aligned with ISO 3166-2:ZW subdivisions (e.g. HA = ZW-HA)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <property>
+    <code value="facilityCode"/>
+    <description value="Two-digit province number used as the province segment of a national facility code (per the MOHCC province table)."/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="HA"/>
+    <display value="Harare"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="01"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MA"/>
+    <display value="Manicaland"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="02"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MC"/>
+    <display value="Mashonaland Central"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="03"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ME"/>
+    <display value="Mashonaland East"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="04"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MW"/>
+    <display value="Mashonaland West"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="05"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MN"/>
+    <display value="Matabeleland North"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="06"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MS"/>
+    <display value="Matabeleland South"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="07"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MI"/>
+    <display value="Midlands"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="08"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="MV"/>
+    <display value="Masvingo"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="09"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="BU"/>
+    <display value="Bulawayo"/>
+    <property>
+      <code value="facilityCode"/>
+      <valueString value="10"/>
+    </property>
+  </concept>
+</CodeSystem>

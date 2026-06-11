@@ -1,0 +1,38 @@
+{
+  "resourceType" : "RelatedPerson",
+  "id" : "relatedperson1",
+  "meta" : {
+    "profile" : ["http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-related-person"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson relatedperson1</b></p><a name=\"relatedperson1\"> </a><a name=\"hcrelatedperson1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-related-person.html\">Zimbabwe Related Person</a></p></div><p><b>patient</b>: <a href=\"Patient-zw-patient-example.html\">Tendai Moyo (official) Female, DoB: 1985-06-15 ( http://mohcc.gov.zw/identifiers/nationalID#ZimNationalIdentity#01-234567B89)</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0131 N}\">Next-of-Kin</span></p><p><b>name</b>: Farai Moyo (Official)</p><p><b>telecom</b>: <a href=\"tel:+263772987654\">+263772987654</a></p><p><b>gender</b>: Male</p><p><b>address</b>: Harare HA ZW (home)</p></div>"
+  },
+  "patient" : {
+    "reference" : "Patient/zw-patient-example"
+  },
+  "relationship" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+      "code" : "N",
+      "display" : "Next-of-Kin"
+    }]
+  }],
+  "name" : [{
+    "use" : "official",
+    "family" : "Moyo",
+    "given" : ["Farai"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+263772987654"
+  }],
+  "gender" : "male",
+  "address" : [{
+    "use" : "home",
+    "city" : "Harare",
+    "district" : "Harare",
+    "state" : "HA",
+    "country" : "ZW"
+  }]
+}

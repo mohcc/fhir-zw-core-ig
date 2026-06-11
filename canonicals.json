@@ -1,0 +1,210 @@
+[{
+  "id" : "ZimCountryCS",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimCountryCS",
+  "version" : "0.1.0",
+  "name" : "ZimCountryCS"
+},
+{
+  "id" : "ZimDistrictCS",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimDistrictCS",
+  "version" : "0.1.0",
+  "name" : "ZimDistrictCS"
+},
+{
+  "id" : "ZimFacilityTypeCS",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimFacilityTypeCS",
+  "version" : "0.1.0",
+  "name" : "ZimFacilityTypeCS"
+},
+{
+  "id" : "ZimProvinceCS",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/CodeSystem/ZimProvinceCS",
+  "version" : "0.1.0",
+  "name" : "ZimProvinceCS"
+},
+{
+  "id" : "zw.fhir.ig.core",
+  "type" : "ImplementationGuide",
+  "url" : "http://mohcc.gov.zw/fhir/core/ImplementationGuide/zw.fhir.ig.core",
+  "version" : "0.1.0",
+  "name" : "ZWCore"
+},
+{
+  "id" : "zw-facility-code-ns",
+  "type" : "NamingSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/NamingSystem/zw-facility-code-ns",
+  "version" : "0.1.0",
+  "name" : "ZimFacilityCode"
+},
+{
+  "id" : "zw-national-identity-ns",
+  "type" : "NamingSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/NamingSystem/zw-national-identity-ns",
+  "version" : "0.1.0",
+  "name" : "ZimNationalIdentity"
+},
+{
+  "id" : "zw-passport-ns",
+  "type" : "NamingSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/NamingSystem/zw-passport-ns",
+  "version" : "0.1.0",
+  "name" : "ZimPassportNumber"
+},
+{
+  "id" : "zw-phid-ns",
+  "type" : "NamingSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/NamingSystem/zw-phid-ns",
+  "version" : "0.1.0",
+  "name" : "ZimPatientHealthId"
+},
+{
+  "id" : "zw-practitioner-registration-ns",
+  "type" : "NamingSystem",
+  "url" : "http://mohcc.gov.zw/fhir/core/NamingSystem/zw-practitioner-registration-ns",
+  "version" : "0.1.0",
+  "name" : "ZimPractitionerRegistration"
+},
+{
+  "id" : "citizenship",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/citizenship",
+  "version" : "0.1.0",
+  "name" : "Citizenship"
+},
+{
+  "id" : "zw-allergy-intolerance",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-allergy-intolerance",
+  "version" : "0.1.0",
+  "name" : "ZimAllergyIntolerance"
+},
+{
+  "id" : "zw-condition",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-condition",
+  "version" : "0.1.0",
+  "name" : "ZimCondition"
+},
+{
+  "id" : "zw-encounter",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-encounter",
+  "version" : "0.1.0",
+  "name" : "ZimEncounter"
+},
+{
+  "id" : "zw-immunization",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-immunization",
+  "version" : "0.1.0",
+  "name" : "ZimImmunization"
+},
+{
+  "id" : "zw-location",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-location",
+  "version" : "0.1.0",
+  "name" : "ZimLocation"
+},
+{
+  "id" : "zw-medication-request",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-medication-request",
+  "version" : "0.1.0",
+  "name" : "ZimMedicationRequest"
+},
+{
+  "id" : "zw-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-observation",
+  "version" : "0.1.0",
+  "name" : "ZimObservation"
+},
+{
+  "id" : "zw-organization",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-organization",
+  "version" : "0.1.0",
+  "name" : "ZimOrganization"
+},
+{
+  "id" : "zw-patient",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-patient",
+  "version" : "0.1.0",
+  "name" : "ZimPatient"
+},
+{
+  "id" : "zw-practitioner",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-practitioner",
+  "version" : "0.1.0",
+  "name" : "ZimPractitioner"
+},
+{
+  "id" : "zw-procedure",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-procedure",
+  "version" : "0.1.0",
+  "name" : "ZimProcedure"
+},
+{
+  "id" : "zw-related-person",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/core/StructureDefinition/zw-related-person",
+  "version" : "0.1.0",
+  "name" : "ZimRelatedPerson"
+},
+{
+  "id" : "ZimCountry",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimCountry",
+  "version" : "0.1.0",
+  "name" : "ZimCountryVS"
+},
+{
+  "id" : "ZimDistrict",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimDistrict",
+  "version" : "0.1.0",
+  "name" : "ZimDistrictVS"
+},
+{
+  "id" : "ZimFacilityType",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimFacilityType",
+  "version" : "0.1.0",
+  "name" : "ZimFacilityTypeVS"
+},
+{
+  "id" : "ZimGender",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimGender",
+  "version" : "0.1.0",
+  "name" : "ZimGenderVS"
+},
+{
+  "id" : "ZimLanguage",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimLanguage",
+  "version" : "0.1.0",
+  "name" : "ZimLanguageVS"
+},
+{
+  "id" : "ZimMaritalStatus",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimMaritalStatus",
+  "version" : "0.1.0",
+  "name" : "ZimMaritalStatusVS"
+},
+{
+  "id" : "ZimProvince",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/core/ValueSet/ZimProvince",
+  "version" : "0.1.0",
+  "name" : "ZimProvinceVS"
+}]
